@@ -1,36 +1,6 @@
 (function ($) {
   "use strict";
 
-  var initPreloader = function () {
-    $(document).ready(function () {
-      var Body = $('body');
-      var Html = $('html');
-
-      // Add class to body and html, and prevent scrolling
-      Body.addClass('preloader-site');
-      Html.css('overflow', 'hidden');
-      Body.css('overflow', 'hidden');
-    });
-
-    $(window).on('load', function () {
-      // Set a timeout to allow preloader to show (adjust timing as needed)
-      setTimeout(function () {
-        // Fade out the preloader
-        $('.preloader').fadeOut(500);
-        
-        // Remove preloader-site class
-        $('body').removeClass('preloader-site');
-        
-        // Re-enable scrolling after the preloader fades out
-        $('html').css('overflow', '');
-        $('body').css('overflow', '');
-      }, 3000); // Adjust this timeout as per your preloader's duration
-    });
-  };
-
-  // Initialize preloader
-  initPreloader();
-
   // Other initializations (Chocolat, Swiper, etc.)
   var initChocolat = function () {
     Chocolat(document.querySelectorAll('.image-link'), {

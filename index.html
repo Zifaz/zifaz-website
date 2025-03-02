@@ -179,13 +179,17 @@
   </svg>
 
   <script>
-    // Hide preloader once page is fully loaded
+    // Modified preloader script
     window.addEventListener('load', function() {
-      document.querySelector('.preloader').style.display = 'none';
+      const preloader = document.querySelector('.preloader');
+      if (preloader) {
+        preloader.style.display = 'none';
+        document.body.style.overflow = 'auto'; // Enable scrolling
+      }
     });
   </script>
 
-  <!-- Only show preloader if page takes more than 500ms to load -->
+  <!-- Modified preloader div -->
   <div class="preloader" style="display: none;">
     <div class="loader"></div>
   </div>
