@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Zifaz Makeover</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+
+  <!--Bootstrap ================================================== -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  <!--vendor css ================================================== -->
+  <link rel="stylesheet" type="text/css" href="css/vendor.css">
+
+  <!--Link Swiper's CSS ================================================== -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <!--Link AOS's CSS ================================================== -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Style Sheet ================================================== -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Google Fonts ================================================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Sora:wght@100..800&display=swap"
+    rel="stylesheet">
+    <link rel="icon" href="images/logoo.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="wifi" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M6.55 12.192c3.017-3.256 7.883-3.256 10.9 0a.75.75 0 1 0 1.1-1.02c-3.61-3.896-9.49-3.896-13.1 0a.75.75 0 1 0 1.1 1.02" />
+      <path fill="currentColor"
+        d="M8.55 14.35c1.912-2.064 4.987-2.064 6.9 0a.75.75 0 1 0 1.1-1.019c-2.506-2.705-6.594-2.705-9.1 0a.75.75 0 1 0 1.1 1.02" />
+      <path fill="currentColor"
+        d="M10.55 16.51c.808-.872 2.092-.872 2.9 0a.75.75 0 1 0 1.1-1.02c-1.401-1.513-3.699-1.513-5.1 0a.75.75 0 1 0 1.1 1.02" />
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M12 1.25c-.708 0-1.351.203-2.05.542c-.674.328-1.454.812-2.427 1.416L5.456 4.491c-.92.572-1.659 1.03-2.227 1.465c-.589.45-1.041.91-1.368 1.507c-.326.595-.472 1.229-.543 1.978c-.068.725-.068 1.613-.068 2.726v1.613c0 1.904 0 3.407.153 4.582c.156 1.205.486 2.178 1.23 2.947c.747.773 1.697 1.119 2.875 1.282c1.14.159 2.598.159 4.434.159h4.116c1.836 0 3.294 0 4.434-.159c1.177-.163 2.128-.509 2.876-1.282c.743-.769 1.073-1.742 1.23-2.947c.152-1.175.152-2.678.152-4.582v-1.613c0-1.113 0-2-.068-2.726c-.07-.75-.217-1.383-.543-1.978c-.327-.597-.78-1.056-1.368-1.507c-.568-.436-1.306-.893-2.227-1.465l-2.067-1.283c-.973-.604-1.753-1.088-2.428-1.416c-.697-.34-1.34-.542-2.049-.542M8.28 4.504c1.015-.63 1.73-1.072 2.327-1.363c.581-.283.993-.391 1.393-.391s.812.108 1.393.391c.598.29 1.312.733 2.327 1.363l2 1.241c.961.597 1.636 1.016 2.14 1.402c.489.375.77.684.963 1.036c.193.353.306.766.365 1.398c.061.648.062 1.465.062 2.623v1.521c0 1.97-.002 3.376-.14 4.443c-.136 1.048-.393 1.656-.82 2.099c-.425.439-1.003.7-2.004.839c-1.026.142-2.379.144-4.286.144h-4c-1.908 0-3.26-.002-4.286-.144c-1.001-.14-1.579-.4-2.003-.84c-.428-.442-.685-1.05-.82-2.098c-.14-1.067-.141-2.472-.141-4.443v-1.521c0-1.158 0-1.975.062-2.623c.059-.632.172-1.045.365-1.398c.193-.352.474-.661.964-1.036c.503-.386 1.178-.805 2.139-1.402z"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="armchair" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M10.749 3.25h2.502c1.088 0 1.976 0 2.678.09c.73.093 1.37.296 1.885.786c.52.496.74 1.12.84 1.833c.096.675.096 1.527.096 2.557v1.057c.4-.21.857-.323 1.323-.323c1.708 0 3.17 1.557 2.53 3.277l-1.12 3l-.023.062c-.173.463-.291.78-.452 1.059c-.498.858-1.309 1.497-2.258 1.833V20a.75.75 0 0 1-1.5 0v-1.254c-.188.004-.4.004-.655.004H6.75V20a.75.75 0 0 1-1.5 0v-1.333a.75.75 0 0 1 .021-.179c-1.14-.398-2.086-1.231-2.527-2.354l-.04-.108l-1.306-3.5c-.642-1.719.82-3.276 2.529-3.276c.466 0 .922.113 1.323.323V8.516c0-1.03 0-1.882.095-2.557c.1-.713.32-1.337.84-1.833c.516-.49 1.156-.693 1.886-.786c.702-.09 1.59-.09 2.678-.09M5.25 11.928V12h.03l.86 2.122l.02.049c.08.196.162.4.289.577c.288.4.724.664 1.199.76c.207.043.427.042.666.042h7.139c.46.001.891.002 1.271-.155c.207-.085.399-.204.566-.355c.316-.286.476-.683.63-1.066l.037-.092l.764-1.882h.03v-.072l.207-.512c.147-.362.57-.666 1.115-.666c.92 0 1.314.743 1.124 1.252l-1.12 3c-.204.55-.278.74-.367.894c-.397.685-1.159 1.193-2.079 1.322c-.212.03-.458.032-1.098.032H6.776c-1.237-.018-2.265-.72-2.636-1.665a6.26 6.26 0 0 1-.034-.09l-1.303-3.493c-.19-.509.204-1.252 1.124-1.252c.546 0 .968.304 1.115.666zm12-.292V8.57c0-1.1-.002-1.845-.08-2.403c-.076-.532-.208-.782-.39-.955c-.188-.18-.465-.312-1.042-.385c-.595-.077-1.386-.078-2.538-.078h-2.4c-1.152 0-1.943.001-2.538.078c-.577.073-.854.206-1.042.385c-.182.173-.314.423-.39.955c-.078.558-.08 1.304-.08 2.403v3.065l.78 1.922c.053.13.083.203.108.259a.502.502 0 0 0 .028.055c.05.07.145.14.28.167c.04.007.095.011.422.011h6.979c.637 0 .738-.014.806-.042a.453.453 0 0 0 .131-.081c.002-.001.022-.017.069-.11a6.79 6.79 0 0 0 .214-.499z"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="dumbbells" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="m4.929 1.53l.049.007c.288.04.542.075.753.12c.224.048.452.118.67.252c.482.297.82.777.958 1.324c.069.274.05.636.03.906l-.024.257l4.657.648l.035-.228c.044-.266.112-.623.247-.874a2.103 2.103 0 0 1 1.263-1.034c.247-.071.486-.076.714-.06c.214.013.469.049.757.089l.048.007c.288.04.543.075.753.12c.225.048.452.117.67.251c.482.298.82.778.958 1.324c.061.243.066.48.052.715c-.012.224-.045.492-.083.804l-.35 2.885c-.037.311-.07.58-.111.8c-.043.23-.104.46-.223.681a2.103 2.103 0 0 1-1.263 1.035a2.043 2.043 0 0 1-.714.06c-.214-.014-.468-.05-.756-.09l-.05-.006c-.287-.04-.542-.076-.752-.12a2.071 2.071 0 0 1-.67-.252a2.172 2.172 0 0 1-.958-1.324c-.07-.275-.05-.636-.03-.907c.007-.082.014-.169.023-.257l-4.656-.648l-.036.229c-.044.266-.112.623-.246.873a2.103 2.103 0 0 1-1.264 1.035a2.044 2.044 0 0 1-.713.06c-.214-.014-.47-.05-.757-.09l-.049-.006c-.288-.04-.543-.075-.753-.12a2.072 2.072 0 0 1-.67-.252a2.173 2.173 0 0 1-.958-1.323a2.334 2.334 0 0 1-.052-.715c.013-.224.045-.492.083-.804l.35-2.885c.038-.312.07-.58.112-.8c.043-.23.104-.46.222-.681A2.103 2.103 0 0 1 3.458 1.5c.247-.071.486-.075.714-.06c.214.014.469.05.757.09m-.855 1.407a.63.63 0 0 0-.2.005a.604.604 0 0 0-.357.303a.878.878 0 0 0-.07.247c-.031.167-.058.388-.1.728l-.344 2.84c-.041.34-.068.56-.077.731a.85.85 0 0 0 .009.263a.674.674 0 0 0 .29.413a.648.648 0 0 0 .197.062c.15.032.35.06.67.105c.32.044.52.072.673.082a.63.63 0 0 0 .199-.005a.603.603 0 0 0 .354-.296c0-.002.012-.03.029-.097c.02-.08.042-.188.064-.32c.044-.265.083-.585.123-.92a.75.75 0 0 1 .848-.653l6.132.854a.75.75 0 0 1 .64.833c-.04.335-.078.654-.099.923a4.13 4.13 0 0 0-.015.328c0 .074.006.104.005.104a.673.673 0 0 0 .289.407a.647.647 0 0 0 .197.061c.15.033.35.06.67.105c.32.045.52.072.673.082a.63.63 0 0 0 .199-.005a.604.604 0 0 0 .358-.302a.874.874 0 0 0 .07-.247c.03-.168.058-.388.099-.728L15.944 6c.042-.34.068-.561.078-.732a.826.826 0 0 0-.01-.262a.674.674 0 0 0-.29-.413a.647.647 0 0 0-.197-.062c-.15-.032-.35-.06-.67-.105c-.32-.045-.52-.072-.672-.082a.63.63 0 0 0-.2.005a.603.603 0 0 0-.354.295c0 .003-.011.03-.028.097a4.13 4.13 0 0 0-.064.32a22.38 22.38 0 0 0-.124.92a.75.75 0 0 1-.848.653l-6.131-.853a.75.75 0 0 1-.641-.833c.04-.336.079-.655.1-.924c.01-.133.015-.243.014-.327c0-.074-.005-.104-.005-.105a.672.672 0 0 0-.288-.406a.648.648 0 0 0-.197-.062c-.15-.032-.35-.06-.67-.105a10.5 10.5 0 0 0-.673-.082m15.123 9.309c-.15.032-.345.087-.657.177c-.311.089-.506.145-.652.199a.672.672 0 0 0-.192.091a.706.706 0 0 0-.243.455s0 .03.009.105c.01.084.028.191.054.322c.054.264.132.574.213.901a.75.75 0 0 1-.52.903l-5.973 1.714a.75.75 0 0 1-.934-.539c-.082-.327-.16-.637-.236-.894a4.041 4.041 0 0 0-.103-.307a.73.73 0 0 0-.04-.09a.57.57 0 0 0-.375-.234a.627.627 0 0 0-.197.023c-.15.032-.346.087-.657.177c-.311.089-.507.145-.652.199a.67.67 0 0 0-.192.091a.707.707 0 0 0-.244.462a.901.901 0 0 0 .024.262c.03.167.083.382.166.713l.692 2.767c.083.331.137.546.189.707c.05.155.082.209.097.23a.572.572 0 0 0 .381.243c.01.001.054.006.198-.024c.15-.031.346-.087.657-.176c.311-.09.506-.146.652-.2a.672.672 0 0 0 .192-.091a.707.707 0 0 0 .243-.455s0-.03-.008-.105a4.093 4.093 0 0 0-.055-.322a22.309 22.309 0 0 0-.213-.9a.75.75 0 0 1 .52-.904l5.973-1.714a.75.75 0 0 1 .934.539c.082.327.16.637.236.894c.038.128.073.23.103.308c.024.06.038.086.04.09a.57.57 0 0 0 .375.234c.01.001.054.006.197-.024c.15-.031.346-.087.657-.176c.312-.09.507-.146.652-.2a.67.67 0 0 0 .193-.091a.707.707 0 0 0 .243-.462a.9.9 0 0 0-.023-.262a13.097 13.097 0 0 0-.167-.713l-.692-2.767a12.78 12.78 0 0 0-.189-.706a.854.854 0 0 0-.097-.231a.571.571 0 0 0-.381-.242a.631.631 0 0 0-.198.023m-.308-1.468a2.04 2.04 0 0 1 .715-.04a2.064 2.064 0 0 1 1.698 1.501c.068.212.133.474.21.777l.702 2.81c.076.304.142.566.182.786c.042.232.067.467.037.716a2.206 2.206 0 0 1-.78 1.437a2.1 2.1 0 0 1-.628.34c-.203.075-.45.146-.731.227l-.048.013c-.28.08-.528.152-.738.196a2.043 2.043 0 0 1-.716.041a2.07 2.07 0 0 1-1.39-.854c-.167-.231-.279-.578-.355-.835l-.06-.207l-4.54 1.303c.02.09.04.177.057.262c.054.265.117.621.082.902a2.206 2.206 0 0 1-.78 1.438a2.096 2.096 0 0 1-.628.34c-.202.075-.45.146-.73.227l-.048.013c-.28.08-.528.152-.739.196a2.043 2.043 0 0 1-.715.041a2.07 2.07 0 0 1-1.391-.854a2.275 2.275 0 0 1-.307-.648c-.068-.212-.133-.474-.21-.777l-.702-2.81c-.076-.304-.142-.566-.182-.786a2.335 2.335 0 0 1-.037-.715a2.206 2.206 0 0 1 .78-1.437c.197-.162.413-.262.628-.341c.203-.075.45-.146.732-.226l.047-.014c.28-.08.528-.152.738-.196a2.04 2.04 0 0 1 .716-.04a2.07 2.07 0 0 1 1.39.853c.167.232.279.579.355.835l.06.207l4.54-1.303c-.02-.09-.04-.177-.056-.261c-.055-.266-.118-.622-.083-.903a2.206 2.206 0 0 1 .78-1.437a2.1 2.1 0 0 1 .628-.341c.202-.075.45-.146.73-.226l.048-.014c.28-.08.529-.152.739-.196"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="swimming" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M17 3.75a1.75 1.75 0 1 0 0 3.5a1.75 1.75 0 0 0 0-3.5M13.75 5.5a3.25 3.25 0 1 1 6.5 0a3.25 3.25 0 0 1-6.5 0m-5.31-.87a.671.671 0 0 0-1.013.881l.988 1.152a2.25 2.25 0 0 1-.551 3.394l-3.477 2.086a.75.75 0 1 1-.772-1.286L7.091 8.77a.75.75 0 0 0 .184-1.131l-.988-1.153a2.171 2.171 0 0 1 3.276-2.849l6.5 7.366a.75.75 0 1 1-1.125.992zm-3.87 8.236c.687-1.074 2.157-1.039 2.888-.104c.99 1.267 2.372 2.488 4.542 2.488c2.209 0 3.57-.979 4.505-2.23c.72-.961 2.286-1.119 3.04.024c.626.945 1.304 1.687 2.627 1.998a.75.75 0 1 1-.344 1.46c-1.852-.436-2.807-1.533-3.534-2.631a.28.28 0 0 0-.253-.128a.432.432 0 0 0-.335.176C16.54 15.48 14.76 16.75 12 16.75c-2.842 0-4.611-1.64-5.724-3.065a.304.304 0 0 0-.246-.125a.23.23 0 0 0-.196.114c-.74 1.156-1.695 2.365-3.662 2.828a.75.75 0 1 1-.344-1.46c1.401-.33 2.08-1.14 2.742-2.176m0 5c.687-1.074 2.157-1.039 2.888-.104c.99 1.267 2.372 2.488 4.542 2.488c2.209 0 3.57-.979 4.505-2.23c.72-.962 2.286-1.119 3.04.024c.626.945 1.304 1.687 2.627 1.998a.75.75 0 1 1-.344 1.46c-1.852-.436-2.807-1.533-3.534-2.631a.28.28 0 0 0-.253-.128a.432.432 0 0 0-.335.177C16.54 20.48 14.76 21.75 12 21.75c-2.842 0-4.611-1.64-5.724-3.065a.304.304 0 0 0-.246-.125a.23.23 0 0 0-.196.114c-.74 1.156-1.695 2.365-3.662 2.828a.75.75 0 1 1-.344-1.46c1.401-.33 2.08-1.14 2.742-2.176"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="chef-hat" viewBox="0 0 24 24">
+      <g fill="none">
+        <path fill="currentColor"
+          d="M19 18h.75zM5 14.584h.75a.75.75 0 0 0-.45-.687zm14 0l-.3-.687a.75.75 0 0 0-.45.687zM15.75 7a.75.75 0 0 0 1.5 0zm-9 0a.75.75 0 0 0 1.5 0zM7 4.25A5.75 5.75 0 0 0 1.25 10h1.5A4.25 4.25 0 0 1 7 5.75zm10 1.5A4.25 4.25 0 0 1 21.25 10h1.5A5.75 5.75 0 0 0 17 4.25zm-2 15.5H9v1.5h6zm-6 0c-.964 0-1.612-.002-2.095-.067c-.461-.062-.659-.169-.789-.3l-1.06 1.062c.455.455 1.022.64 1.65.725c.606.082 1.372.08 2.294.08zM4.25 18c0 .922-.002 1.688.08 2.294c.084.628.27 1.195.725 1.65l1.061-1.06c-.13-.13-.237-.328-.3-.79c-.064-.482-.066-1.13-.066-2.094zm14 0c0 .964-.002 1.612-.067 2.095c-.062.461-.169.659-.3.789l1.062 1.06c.455-.455.64-1.022.725-1.65c.082-.606.08-1.372.08-2.294zM15 22.75c.922 0 1.688.002 2.294-.08c.628-.084 1.195-.27 1.65-.726l-1.06-1.06c-.13.13-.328.237-.79.3c-.482.064-1.13.066-2.094.066zm-8-17c.214 0 .423.016.628.046l.219-1.484A5.792 5.792 0 0 0 7 4.25zm5-4.5a5.252 5.252 0 0 0-4.973 3.563l1.42.482A3.752 3.752 0 0 1 12 2.75zM7.027 4.813A5.245 5.245 0 0 0 6.75 6.5h1.5c0-.423.07-.828.198-1.205zM17 4.25c-.287 0-.57.021-.847.062l.22 1.484A4.29 4.29 0 0 1 17 5.75zm-5-1.5a3.752 3.752 0 0 1 3.552 2.545l1.42-.482A5.252 5.252 0 0 0 12 1.25zm3.552 2.545c.128.377.198.782.198 1.205h1.5c0-.589-.097-1.156-.277-1.687zM5.75 18v-3.416h-1.5V18zm-.45-4.103A4.251 4.251 0 0 1 2.75 10h-1.5a5.751 5.751 0 0 0 3.45 5.271zm12.95.687V18h1.5v-3.416zm3-4.584a4.251 4.251 0 0 1-2.55 3.897l.6 1.374A5.751 5.751 0 0 0 22.75 10zm-5.5-3.5V7h1.5v-.5zm-9 0V7h1.5v-.5z" />
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 18h14" />
+      </g>
+    </symbol>
+    <symbol id="meditation" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M12 2.75a1.75 1.75 0 1 0 0 3.5a1.75 1.75 0 0 0 0-3.5M8.75 4.5a3.25 3.25 0 1 1 6.5 0a3.25 3.25 0 0 1-6.5 0M12 9.77a5.9 5.9 0 0 0-.86.052l-.892.15c-2.013.339-3.498 2.102-3.498 4.178a3.25 3.25 0 0 1-1.43 2.696l-.1.069a3.43 3.43 0 0 1-.823.406l-1.157.39a.75.75 0 0 1-.48-1.422l1.159-.39c.163-.055.319-.132.462-.228l.102-.069a1.75 1.75 0 0 0 .767-1.452c0-2.797 2.003-5.195 4.748-5.657l.89-.15A7.273 7.273 0 0 1 12 8.271a7.255 7.255 0 0 1 1.112.072l.89.15c2.746.462 4.748 2.86 4.748 5.657c0 .586.29 1.13.768 1.452l.101.069c.144.096.3.173.463.228l1.158.39a.75.75 0 0 1-.48 1.422l-1.157-.39a3.429 3.429 0 0 1-.822-.406l-.101-.069a3.25 3.25 0 0 1-1.43-2.696c0-2.076-1.485-3.839-3.497-4.178l-.892-.15a5.886 5.886 0 0 0-.86-.051m-3.1 5.78a.75.75 0 1 1 1.2.9l-.924 1.233l-.022.029a4.531 4.531 0 0 1-.34.42a2.75 2.75 0 0 1-1.007.67c-.155.058-.316.098-.52.15l-.035.008l-1.794.449a.935.935 0 0 0 .227 1.841h.684c1.546 0 3.05-.501 4.287-1.429L12.55 18.4a.75.75 0 1 1 .9 1.2l-.904.678l.491.185c.534.2.775.29 1.017.366a9.252 9.252 0 0 0 2.243.407c.253.014.51.014 1.08.014h.939a.935.935 0 0 0 .226-1.841l-1.473-.369a96.02 96.02 0 0 0-.082-.02c-.476-.119-.851-.212-1.186-.406a2.73 2.73 0 0 1-.29-.192c-.308-.234-.54-.543-.833-.936l-.051-.067l-.727-.969a.75.75 0 1 1 1.2-.9l.727.969c.368.491.471.618.591.709c.042.031.086.06.132.087c.13.075.287.121.883.27l1.473.368a2.435 2.435 0 0 1-.59 4.797h-.963c-.539 0-.84 0-1.14-.017a10.753 10.753 0 0 1-2.607-.473c-.286-.09-.567-.195-1.072-.384l-1.432-.537a8.645 8.645 0 0 1-4.733 1.411h-.684a2.435 2.435 0 0 1-.59-4.797l1.793-.448c.255-.064.324-.082.384-.105c.173-.066.33-.17.458-.304c.044-.047.088-.102.246-.313z"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="calendar" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M17 14a1 1 0 1 0 0-2a1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2a1 1 0 0 0 0 2m-4-5a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0 4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-6-3a1 1 0 1 0 0-2a1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2a1 1 0 0 0 0 2" />
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M7 1.75a.75.75 0 0 1 .75.75v.763c.662-.013 1.391-.013 2.193-.013h4.113c.803 0 1.532 0 2.194.013V2.5a.75.75 0 0 1 1.5 0v.827c.26.02.506.045.739.076c1.172.158 2.121.49 2.87 1.238c.748.749 1.08 1.698 1.238 2.87c.153 1.14.153 2.595.153 4.433v2.112c0 1.838 0 3.294-.153 4.433c-.158 1.172-.49 2.121-1.238 2.87c-.749.748-1.698 1.08-2.87 1.238c-1.14.153-2.595.153-4.433.153H9.945c-1.838 0-3.294 0-4.433-.153c-1.172-.158-2.121-.49-2.87-1.238c-.748-.749-1.08-1.698-1.238-2.87c-.153-1.14-.153-2.595-.153-4.433v-2.112c0-1.838 0-3.294.153-4.433c.158-1.172.49-2.121 1.238-2.87c.749-.748 1.698-1.08 2.87-1.238c.233-.031.48-.056.739-.076V2.5A.75.75 0 0 1 7 1.75M5.71 4.89c-1.005.135-1.585.389-2.008.812c-.423.423-.677 1.003-.812 2.009c-.023.17-.042.35-.058.539h18.336c-.016-.19-.035-.369-.058-.54c-.135-1.005-.389-1.585-.812-2.008c-.423-.423-1.003-.677-2.009-.812c-1.027-.138-2.382-.14-4.289-.14h-4c-1.907 0-3.261.002-4.29.14M2.75 12c0-.854 0-1.597.013-2.25h18.474c.013.653.013 1.396.013 2.25v2c0 1.907-.002 3.262-.14 4.29c-.135 1.005-.389 1.585-.812 2.008c-.423.423-1.003.677-2.009.812c-1.027.138-2.382.14-4.289.14h-4c-1.907 0-3.261-.002-4.29-.14c-1.005-.135-1.585-.389-2.008-.812c-.423-.423-.677-1.003-.812-2.009c-.138-1.027-.14-2.382-.14-4.289z"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="arrow-right" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M13.47 5.47a.75.75 0 0 1 1.06 0l6 6a.75.75 0 0 1 0 1.06l-6 6a.75.75 0 1 1-1.06-1.06l4.72-4.72H4a.75.75 0 0 1 0-1.5h14.19l-4.72-4.72a.75.75 0 0 1 0-1.06"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="arrow-left" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M10.53 5.47a.75.75 0 0 1 0 1.06l-4.72 4.72H20a.75.75 0 0 1 0 1.5H5.81l4.72 4.72a.75.75 0 1 1-1.06 1.06l-6-6a.75.75 0 0 1 0-1.06l6-6a.75.75 0 0 1 1.06 0"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="send" viewBox="0 0 24 24">
+      <g fill="none">
+        <path
+          d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022m-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+        <path fill="currentColor"
+          d="m21.433 4.861l-6 15.5a1 1 0 0 1-1.624.362l-3.382-3.235l-2.074 2.073a.5.5 0 0 1-.853-.354v-4.519L2.309 9.723a1 1 0 0 1 .442-1.691l17.5-4.5a1 1 0 0 1 1.181 1.329ZM19 6.001L8.032 13.152l1.735 1.66L19 6Z" />
+      </g>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="quote" viewBox="0 0 16 16">
+      <path fill="currentColor"
+        d="M7 7v7H0V6.9c0-4.8 4.5-5.4 4.5-5.4l.6 1.4s-2 .3-2.4 1.9C2.3 6 3.1 7 3.1 7zm9 0v7H9V6.9c0-4.8 4.5-5.4 4.5-5.4l.6 1.4s-2 .3-2.4 1.9c-.4 1.2.4 2.2.4 2.2z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="play" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M9.5 15.584V8.416a.5.5 0 0 1 .77-.42l5.576 3.583a.5.5 0 0 1 0 .842l-5.576 3.584a.5.5 0 0 1-.77-.42Z" />
+      <path fill="currentColor"
+        d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12m11-9.5A9.5 9.5 0 0 0 2.5 12a9.5 9.5 0 0 0 9.5 9.5a9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="navbar-icon" viewBox="0 0 16 16">
+      <path
+        d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z" />
+    </symbol>
+    <symbol id="location" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M3.25 10.143C3.25 5.244 7.155 1.25 12 1.25c4.845 0 8.75 3.994 8.75 8.893c0 2.365-.674 4.905-1.866 7.099c-1.19 2.191-2.928 4.095-5.103 5.112a4.2 4.2 0 0 1-3.562 0c-2.175-1.017-3.913-2.92-5.103-5.112c-1.192-2.194-1.866-4.734-1.866-7.099M12 2.75c-3.992 0-7.25 3.297-7.25 7.393c0 2.097.603 4.392 1.684 6.383c1.082 1.993 2.612 3.624 4.42 4.469a2.7 2.7 0 0 0 2.291 0c1.809-.845 3.339-2.476 4.421-4.469c1.081-1.99 1.684-4.286 1.684-6.383c0-4.096-3.258-7.393-7.25-7.393m0 5a2.25 2.25 0 1 0 0 4.5a2.25 2.25 0 0 0 0-4.5M8.25 10a3.75 3.75 0 1 1 7.5 0a3.75 3.75 0 0 1-7.5 0"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="phone" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M6.007 3.407c1.68-1.68 4.516-1.552 5.686.544l.649 1.163c.763 1.368.438 3.095-.68 4.227a.63.63 0 0 0-.104.337c-.013.256.078.849.997 1.767c.918.918 1.51 1.01 1.767.997a.63.63 0 0 0 .337-.104c1.131-1.118 2.859-1.443 4.227-.68l1.163.65c2.096 1.17 2.224 4.004.544 5.685c-.899.898-2.093 1.697-3.498 1.75c-2.08.079-5.536-.459-8.958-3.88c-3.421-3.422-3.959-6.877-3.88-8.958c.053-1.405.852-2.6 1.75-3.498m4.376 1.275c-.6-1.074-2.21-1.32-3.315-.214c-.775.775-1.28 1.63-1.312 2.493c-.066 1.736.363 4.762 3.442 7.84c3.08 3.08 6.105 3.509 7.84 3.443c.863-.033 1.72-.537 2.494-1.312c1.106-1.106.86-2.716-.214-3.315l-1.163-.649c-.723-.403-1.74-.266-2.453.448c-.07.07-.516.486-1.307.524c-.81.04-1.791-.324-2.9-1.434c-1.111-1.11-1.475-2.091-1.435-2.902c.038-.791.455-1.237.524-1.307c.714-.713.851-1.729.448-2.452z"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="email" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M9.944 3.25h4.112c1.838 0 3.294 0 4.433.153c1.172.158 2.121.49 2.87 1.238c.748.749 1.08 1.698 1.238 2.87c.153 1.14.153 2.595.153 4.433v.112c0 1.838 0 3.294-.153 4.433c-.158 1.172-.49 2.121-1.238 2.87c-.749.748-1.698 1.08-2.87 1.238c-1.14.153-2.595.153-4.433.153H9.944c-1.838 0-3.294 0-4.433-.153c-1.172-.158-2.121-.49-2.87-1.238c-.748-.749-1.08-1.698-1.238-2.87c-.153-1.14-.153-2.595-.153-4.433v-.112c0-1.838 0-3.294.153-4.433c.158-1.172.49-2.121 1.238-2.87c.749-.748 1.698-1.08 2.87-1.238c1.14-.153 2.595-.153 4.433-.153M5.71 4.89c-1.006.135-1.586.389-2.01.812c-.422.423-.676 1.003-.811 2.009c-.138 1.028-.14 2.382-.14 4.289c0 1.907.002 3.262.14 4.29c.135 1.005.389 1.585.812 2.008c.423.423 1.003.677 2.009.812c1.028.138 2.382.14 4.289.14h4c1.907 0 3.262-.002 4.29-.14c1.005-.135 1.585-.389 2.008-.812c.423-.423.677-1.003.812-2.009c.138-1.028.14-2.382.14-4.289c0-1.907-.002-3.261-.14-4.29c-.135-1.005-.389-1.585-.812-2.008c-.423-.423-1.003-.677-2.009-.812c-1.027-.138-2.382-.14-4.289-.14h-4c-1.907 0-3.261.002-4.29.14m-.287 2.63a.75.75 0 0 1 1.056-.096L8.64 9.223c.933.777 1.58 1.315 2.128 1.667c.529.34.888.455 1.233.455c.345 0 .704-.114 1.233-.455c.547-.352 1.195-.89 2.128-1.667l2.159-1.8a.75.75 0 1 1 .96 1.153l-2.196 1.83c-.887.74-1.605 1.338-2.24 1.746c-.66.425-1.303.693-2.044.693c-.741 0-1.384-.269-2.045-.693c-.634-.408-1.352-1.007-2.239-1.745L5.52 8.577a.75.75 0 0 1-.096-1.057"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="clock" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M12 2.75a9.25 9.25 0 1 0 0 18.5a9.25 9.25 0 0 0 0-18.5M1.25 12C1.25 6.063 6.063 1.25 12 1.25S22.75 6.063 22.75 12S17.937 22.75 12 22.75S1.25 17.937 1.25 12M12 7.25a.75.75 0 0 1 .75.75v3.69l2.28 2.28a.75.75 0 1 1-1.06 1.06l-2.5-2.5a.75.75 0 0 1-.22-.53V8a.75.75 0 0 1 .75-.75"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="star" viewBox="0 0 512 512">
+      <path fill="currentColor"
+        d="M394 480a16 16 0 0 1-9.39-3L256 383.76L127.39 477a16 16 0 0 1-24.55-18.08L153 310.35L23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="play-circle" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="m9.5 16.5l7-4.5l-7-4.5zM12 22q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22m0-2q3.35 0 5.675-2.325T20 12q0-3.35-2.325-5.675T12 4Q8.65 4 6.325 6.325T4 12q0 3.35 2.325 5.675T12 20m0-8" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="facebook" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="youtube" viewBox="0 0 32 32">
+      <path fill="currentColor"
+        d="M29.41 9.26a3.5 3.5 0 0 0-2.47-2.47C24.76 6.2 16 6.2 16 6.2s-8.76 0-10.94.59a3.5 3.5 0 0 0-2.47 2.47A36.13 36.13 0 0 0 2 16a36.13 36.13 0 0 0 .59 6.74a3.5 3.5 0 0 0 2.47 2.47c2.18.59 10.94.59 10.94.59s8.76 0 10.94-.59a3.5 3.5 0 0 0 2.47-2.47A36.13 36.13 0 0 0 30 16a36.13 36.13 0 0 0-.59-6.74ZM13.2 20.2v-8.4l7.27 4.2Z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="instagram" viewBox="0 0 256 256">
+      <path fill="currentColor"
+        d="M128 80a48 48 0 1 0 48 48a48.05 48.05 0 0 0-48-48Zm0 80a32 32 0 1 1 32-32a32 32 0 0 1-32 32Zm48-136H80a56.06 56.06 0 0 0-56 56v96a56.06 56.06 0 0 0 56 56h96a56.06 56.06 0 0 0 56-56V80a56.06 56.06 0 0 0-56-56Zm40 152a40 40 0 0 1-40 40H80a40 40 0 0 1-40-40V80a40 40 0 0 1 40-40h96a40 40 0 0 1 40 40ZM192 76a12 12 0 1 1-12-12a12 12 0 0 1 12 12Z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="twitter" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23Z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="linkedin" viewBox="0 0 512 512">
+      <path fill="currentColor"
+        d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32Zm-273.3 373.43h-64.18V205.88h64.18ZM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43c0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43Zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44c-17.74 0-28.24 12-32.91 23.69c-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44c42.13 0 74 27.77 74 87.64Z" />
+    </symbol>
+    <symbol id="search" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M11.5 2.75a8.75 8.75 0 1 0 0 17.5a8.75 8.75 0 0 0 0-17.5M1.25 11.5c0-5.66 4.59-10.25 10.25-10.25S21.75 5.84 21.75 11.5c0 2.56-.939 4.902-2.491 6.698l3.271 3.272a.75.75 0 1 1-1.06 1.06l-3.272-3.271A10.21 10.21 0 0 1 11.5 21.75c-5.66 0-10.25-4.59-10.25-10.25"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="plus" viewBox="0 0 16 16">
+      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" id="minus" viewBox="0 0 16 16">
+      <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
+    </symbol>
+  </svg>
+
+  <script>
+    // Hide preloader once page is fully loaded
+    window.addEventListener('load', function() {
+      document.querySelector('.preloader').style.display = 'none';
+    });
+  </script>
+
+  <!-- Only show preloader if page takes more than 500ms to load -->
+  <div class="preloader" style="display: none;">
+    <div class="loader"></div>
+  </div>
+  <style>
+    .location a:hover,
+    .phone a:hover,
+    .time a:hover {
+      color: #333; /* Darker color for hover */
+    }
+  
+    .location a:hover svg,
+    .phone a:hover svg,
+    .time a:hover svg {
+      fill: #333; /* Darken the icon color on hover */
+    }
+  </style>
+  <header id="header">
+    <nav class="header-top bg-secondary py-1">
+      <div class="container-fluid padding-side">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex flex-wrap align-items-center" style="max-width: calc(100% - 100px);">
+            <ul class="info d-flex flex-wrap list-unstyled m-0">
+              <li class="location text-capitalize d-flex align-items-center me-4" style="font-size: 14px;">
+                <a href="https://maps.app.goo.gl/8JFY5UjjNqm9FPX17" 
+                   target="_blank" style="text-decoration: none; color: inherit; display: flex; align-items: center;">
+                  <svg class="color me-1" width="15" height="15">
+                    <use xlink:href="#location"></use>
+                  </svg>
+                  Find Us
+                </a>
+              </li>
+              <li class="phone d-flex align-items-center me-4" style="font-size: 14px;">
+                <a href="tel:+919673744049" style="text-decoration: none; color: inherit; display: flex; align-items: center;">
+                  <svg class="color me-1" width="15" height="15">
+                    <use xlink:href="#phone"></use>
+                  </svg>
+                  +91 96737 44049
+                </a>
+              </li>
+              <li class="time d-flex align-items-center me-4" style="font-size: 14px;">
+                <a href="mailto:zifazmakeover@gmail.com" style="text-decoration: none; color: inherit; display: flex; align-items: center;">
+                  <svg class="color me-1" width="15" height="15">
+                    <use xlink:href="#email"></use>
+                  </svg>
+                  zifazmakeover@gmail.com
+                </a>
+              </li>
+            </ul>
+          </div>
+          <ul class="social-links d-flex list-unstyled m-0" style="min-width: 90px;">
+            <li class="social">
+              <a href="https://www.facebook.com/p/zifaz_makeover-100065638326440/?_rdr">
+                <svg class="social" width="40" height="40">
+                  <use xlink:href="#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social ms-4">
+              <a href="https://www.instagram.com/zifaz_makeover/?hl=en">
+                <svg class="social" width="40" height="40">
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav id="primary-header" class="navbar navbar-expand-lg py-4">
+      <div class="container-fluid padding-side">
+        <div class="d-flex justify-content-between align-items-center w-100">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.svg" class="logo img-fluid">
+          </a>
+          <button class="navbar-toggler border-0 d-flex d-lg-none order-3 p-2 shadow-none" type="button"
+            data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false">
+            <svg class="navbar-icon" width="60" height="60">
+              <use xlink:href="#navbar-icon"></use>
+            </svg>
+          </button>
+          <div class="header-bottom offcanvas offcanvas-end" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel" 
+               style="background-color: #fde3ca;">
+            <div class="offcanvas-header px-4 pb-0">
+              <button type="button" class="btn-close mt-2" data-bs-dismiss="offcanvas"
+                aria-label="Close" data-bs-target="#bdNavbar"></button>
+            </div>
+            <div class="offcanvas-body align-items-center justify-content-center">
+              <ul class="navbar-nav align-items-center mb-2 mb-lg-0">
+                <li class="nav-item px-3 py-3">
+                  <a class="nav-link active p-0 fs-3" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item px-3 py-3">
+                  <a class="nav-link p-0 fs-3" href="about.html">About</a>
+                </li>
+                <li class="nav-item px-3 py-3">
+                  <a class="nav-link p-0 fs-3" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item px-3 py-3 dropdown">
+                  <a class="nav-link p-0 dropdown-toggle text-center fs-3" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Services</a>
+                  <ul class="dropdown-menu animate slide mt-3 border-0" style="background-color: #fff6f6;">
+                    <li><a href="services.html" class="dropdown-item py-2">Bridal Makeup</a></li>
+                    <li><a href="services.html" class="dropdown-item py-2">Party Makeup</a></li>
+                    <li><a href="services.html" class="dropdown-item py-2">Fashion Makeup</a></li>
+                    <li><a href="services.html" class="dropdown-item py-2">Makeup Classes</a></li>
+                    <li><a href="services.html" class="dropdown-item py-2">Hair Styling</a></li>
+                    <li><a href="services.html" class="dropdown-item py-2">Packages</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="mt-5 text-center">
+                <p class="mb-2">Connect With Us</p>
+                <div class="d-flex justify-content-center gap-4">
+                  <a href="https://www.facebook.com/p/zifaz_makeover-100065638326440/?_rdr">
+                    <svg class="social" width="30" height="30">
+                      <use xlink:href="#facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="https://www.instagram.com/zifaz_makeover/?hl=en">
+                    <svg class="social" width="30" height="30">
+                      <use xlink:href="#instagram"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Sticky header that appears on scroll -->
+    <nav id="sticky-header" class="navbar navbar-expand-lg py-2 bg-white position-fixed w-100 top-0 start-0" style="display: none; box-shadow: 0 2px 10px rgba(0,0,0,0.1); z-index: 1000; transition: all 0.3s ease-in-out;">
+      <div class="container-fluid padding-side">
+        <div class="d-flex justify-content-between align-items-center w-100">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.svg" class="logo img-fluid" style="max-height: 80px;">
+          </a>
+          <ul class="navbar-nav align-items-center mb-0 d-none d-lg-flex">
+            <li class="nav-item px-3">
+              <a class="nav-link active p-0" href="index.html">Home</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link p-0" href="about.html">About</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link p-0" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item px-3 dropdown">
+              <a class="nav-link p-0 dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">Services</a>
+              <ul class="dropdown-menu dropdown-menu-end animate slide mt-3 border-0 shadow">
+                <li><a href="services.html" class="dropdown-item">Bridal Makeup</a></li>
+                <li><a href="services.html" class="dropdown-item">Party Makeup</a></li>
+                <li><a href="services.html" class="dropdown-item">Fashion Makeup</a></li>
+                <li><a href="services.html" class="dropdown-item">Makeup Classes</a></li>
+                <li><a href="services.html" class="dropdown-item">Hair Styling</a></li>
+                <li><a href="services.html" class="dropdown-item">Packages</a></li>
+              </ul>
+            </li>
+          </ul>
+          <button class="navbar-toggler border-0 d-flex d-lg-none p-2 shadow-none" type="button"
+            data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false">
+            <svg class="navbar-icon" width="40" height="40">
+              <use xlink:href="#navbar-icon"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <script>
+      window.addEventListener('scroll', function() {
+        const stickyHeader = document.getElementById('sticky-header');
+        const primaryHeader = document.getElementById('primary-header');
+        const scrollPosition = window.scrollY;
+        
+        if (scrollPosition > primaryHeader.offsetHeight) {
+          stickyHeader.style.display = 'block';
+          // Optional: Add animation class
+          stickyHeader.classList.add('header-slide-down');
+        } else {
+          stickyHeader.style.display = 'none';
+          // Optional: Remove animation class
+          stickyHeader.classList.remove('header-slide-down');
+        }
+      });
+    </script>
+
+    <style>
+      @keyframes slideDown {
+        from {
+          transform: translateY(-100%);
+        }
+        to {
+          transform: translateY(0);
+        }
+      }
+
+      .header-slide-down {
+        animation: slideDown 0.3s ease-in-out;
+      }
+    </style>
+  </header>
+  <section id="slider" data-aos="fade-up">
+    <div class="container-fluid padding-side">
+      <div class="d-flex rounded-5"
+        style="background-image: url(images/slider2.jpg); background-size: cover; background-repeat: no-repeat; height: 85vh; background-position: center;">
+        <div class="row align-items-center m-auto pt-5 px-4 px-lg-0">
+          <div class="text-start col-md-6 col-lg-5 col-xl-6 offset-lg-1">
+            <h2 class="display-1 fw-normal">Transform into a Radiant Bride with Our Expert Makeup Services</h2>
+            <a href="https://zifaz-makeover.setmore.com/zifaz" class="btn btn-arrow btn-primary mt-3">
+              <span>Book Now <svg width="18" height="18">
+                  <use xlink:href="#arrow-right"></use>
+                </svg></span>
+            </a>
+            <a href="#gallery" class="btn btn-arrow btn-primary mt-3">
+              <span>View Gallery <svg width="18" height="18">
+                  <use xlink:href="#arrow-right"></use>
+                </svg></span>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-5 col-xl-4 mt-5 mt-md-0 d-none d-md-block"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about-us" class="padding-large pt-0 pt-lg-5">
+    <div class="container-fluid padding-side" data-aos="fade-up">
+      <h3 class="headertext display-3 text-center fw-normal col-lg-4 offset-lg-4">Zifaz Makeover: Your Beauty Journey Begins Here</h3>
+      <div class="row align-items-start mt-3 mt-lg-5">
+        <div class="col-lg-6">
+          <div class="p-4 p-lg-5">
+            <p>Welcome to Zifaz Makeover, where artistry meets elegance. As Goa's premier bridal makeup brand, we specialize in creating stunning bridal looks that enhance your natural beauty. With our expert team of makeup artists, premium products, and personalized service, we ensure every bride feels confident and radiant on her special day.</p>
+            <a href="about.html" class="btn btn-arrow btn-primary mt-3">
+              <span>Read About Us <svg width="18" height="18">
+                  <use xlink:href="#arrow-right"></use>
+                </svg></span>
+            </a>
+          </div>
+          <img src="images/abt11.jpeg" alt="img" class="img-fluid rounded-4 mt-4">
+        </div>
+        <div class="col-lg-6 mt-4 mt-lg-0">
+          <img src="images/abt4.jpeg" alt="img" class="img-fluid rounded-4">
+          <img src="images/abt3.jpeg" alt="img" class="img-fluid rounded-4 mt-4">
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="info">
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <div class="col-md-3 text-center mb-4 mb-lg-0">
+          <h3 class="display-1 fw-normal text-primary position-relative">300+ <span
+              class="position-absolute top-50 end-50 translate-middle z-n1 ps-lg-4 pt-lg-4"><img
+                src="images/pattern1.png" alt="pattern" class="img-fluid"></span></h3>
+          <p class="text-capitalize">Happy Brides</p>
+        </div>
+        <div class="col-md-3 text-center mb-4 mb-lg-0">
+          <h3 class="display-1 fw-normal text-primary position-relative">7+ <span
+              class="position-absolute top-50 translate-middle z-n1"><img src="images/pattern1.png" alt="pattern"
+                class="img-fluid"></span></h3>
+          <p class="text-capitalize">Years Experience</p>
+        </div>
+        <div class="col-md-3 text-center mb-4 mb-lg-0">
+          <h3 class="display-1 fw-normal text-primary position-relative">15+ <span
+              class="position-absolute top-100 pb-5 translate-middle z-n1"><img src="images/pattern1.png" alt="pattern"
+                class="img-fluid"></span></h3>
+          <p class="text-capitalize">Makeup Artists</p>
+        </div>
+        <div class="col-md-3 text-center mb-4 mb-lg-0">
+          <h3 class="display-1 fw-normal text-primary position-relative">100+ <span
+              class="position-absolute top-50 end-50 pb-lg-4 pe-lg-2 translate-middle z-n1"><img
+                src="images/pattern1.png" alt="pattern" class="img-fluid"></span></h3>
+          <p class="text-capitalize">Premium Products</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="packages" class="padding-medium">
+    <div class="container-fluid padding-side" data-aos="fade-up">
+      <div class="d-flex flex-wrap align-items-center justify-content-between">
+        <div>
+          <h3 class="display-3 fw-normal text-center">Our Makeup Packages</h3>
+        </div>
+      </div>
+
+      <style>
+        @media (max-width: 768px) {
+          .post-image {
+            height: 500px !important;
+            object-fit: cover !important;
+            width: 100% !important;
+          }
+          .product-description {
+            height: auto !important;
+            overflow-y: auto !important;
+            padding: 1rem !important;
+          }
+        }
+      </style>
+
+      <div class="swiper room-swiper mt-5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="room-item position-relative bg-black rounded-4 overflow-hidden">
+              <img src="images/brnz.jpeg" alt="Bronze Package" class="post-image img-fluid rounded-4">
+              <div class="product-description position-absolute p-5 text-start">
+                <h4 class="display-6 fw-normal text-white">Bronze Package</h4>
+                <p class="product-paragraph text-white">Perfect for engagement ceremonies and pre-wedding events. Includes basic makeup with quality products.</p>
+                <table>
+                  <tbody>
+                    <tr class="text-white">
+                      <td class="pe-2">Price:</td>
+                      <td class="price">₹5,000</td>
+                    </tr>
+                    <tr class="text-white">
+                      <td class="pe-2">Duration:</td>
+                      <td>2 hours</td>
+                    </tr>
+                    <tr class="text-white">
+                      <td class="pe-2">Includes:</td>
+                      <td>Basic Makeup, Hairstyling</td>
+                    </tr>
+                    <tr class="text-white">
+                      <td class="pe-2">Products:</td>
+                      <td>Standard Range</td>
+                    </tr>
+                    <tr class="text-white">
+                      <td class="pe-2">Services:</td>
+                      <td>Basic Hair, Basic Makeup, Touch-ups</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <a href="https://zifaz-makeover.setmore.com/zifaz">
+                  <p class="text-decoration-underline text-white m-0 mt-2">Book Now</p>
+                </a>
+              </div>
+            </div>
+            <div class="room-content text-center mt-3">
+              <h4 class="display-6 fw-normal"><a href="index.html">Bronze Package</a></h4>
+              <p><span class="text-primary fs-4">₹5,000</span></p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="room-item position-relative bg-black rounded-4 overflow-hidden">
+              <img src="images/silver11.png" alt="Silver Package" class="post-image img-fluid rounded-4">
+              <div class="product-description position-absolute p-5 text-start">
+                <h4 class="display-6 fw-normal text-white">Silver Package</h4>
+                <p class="product-paragraph text-white">Ideal for reception and sangeet ceremonies. Premium makeup with enhanced features.</p>
+                <table>
+                  <tbody>
+                    <tr class="text-white">
+                      <td class="pe-2">Price:</td>
+                      <td class="price">₹15,000</td>
+                    </tr>
+                    <tr class="text-white">
+                      <td class="pe-2">Duration:</td>
+                      <td>3 hours</td>
+                    </tr>
+                    <tr class="text-white">
+                      <td class="pe-2">Includes:</td>
+                      <td>Premium Makeup, Advanced Styling</td>
+                    </tr>
+                    <tr class="text-white">
+                      <td class="pe-2">Products:</td>
+                      <td>Premium Range</td>
+                    </tr>
+                    <tr class="text-white">
+                      <td class="pe-2">Services:</td>
+                      <td>Hair, Makeup, Draping, Touch-ups</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <a href="https://zifaz-makeover.setmore.com/zifaz">
+                  <p class="text-decoration-underline text-white m-0 mt-2">Book Now</p>
+                </a>
+              </div>
+            </div>
+            <div class="room-content text-center mt-3">
+              <h4 class="display-6 fw-normal"><a href="index.html">Silver Package</a></h4>
+              <p><span class="text-primary fs-4">₹15,000</span></p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="room-item position-relative bg-black rounded-4 overflow-hidden">
+              <img src="images/gold2.jpeg" alt="Gold Package" class="post-image img-fluid rounded-4">
+              <div class="product-description position-absolute p-5 text-start">
+                <h4 class="display-6 fw-normal text-white">Gold Package</h4>
+                <p class="product-paragraph text-white">Our premium bridal package for your wedding day. Luxury products and complete styling.</p>
+                <table>
+                  <tbody>
+                    <tr class="text-white">
+                      <td class="pe-2">Price:</td>
+                      <td class="price">₹30,000</td>
+                    </tr>
+                    <tr class="text-white">
+                      <td class="pe-2">Duration:</td>
+                      <td>4 hours</td>
+                    </tr>
+                    <tr class="text-white">
+                      <td class="pe-2">Includes:</td>
+                      <td>Luxury Makeup, Complete Styling</td>
+                    </tr>
+                    <tr class="text-white">
+                      <td class="pe-2">Products:</td>
+                      <td>Luxury Range</td>
+                    </tr>
+                    <tr class="text-white">
+                      <td class="pe-2">Services:</td>
+                      <td>Hair-Styling, Makeup, Draping, Full Day Support</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <a href="https://zifaz-makeover.setmore.com/zifaz">
+                  <p class="text-decoration-underline text-white m-0 mt-2">Book Now</p>
+                </a>
+              </div>
+            </div>
+            <div class="room-content text-center mt-3">
+              <h4 class="display-6 fw-normal"><a href="index.html">Gold Package</a></h4>
+              <p><span class="text-primary fs-4">₹30,000</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination room-pagination position-relative mt-5"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" data-aos="fade-up">
+    <h3 class="display-3 fw-normal text-center">our gallery</h3>
+    <p class="text-center col-lg-4 offset-lg-4 mb-5">
+      Explore our stunning portfolio showcasing our best bridal and party makeup
+      looks. From natural glam to bold and dramatic transformations, witness the
+      artistry and expertise that makes every client feel beautiful and confident
+      on their special day.
+    </p>
+    <div class="container position-relative">
+      <div class="row">
+        <div class="swiper gallery-swiper offset-1 col-10">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="images/item3.png"
+                alt="Image 1"
+                class="img-fluid rounded-4"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="images/item2.png"
+                alt="Image 2"
+                class="img-fluid rounded-4"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="images/item11.png"
+                alt="Image 3"
+                class="img-fluid rounded-4"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="images/collage3.png"
+                alt="Image 4"
+                class="img-fluid rounded-4"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="images/collage5.png"
+                alt="Image 5"
+                class="img-fluid rounded-4"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="position-absolute top-50 start-0 translate-middle-y main-slider-button-prev d-none d-md-block"
+      >
+        <svg class="bg-secondary rounded-circle p-3" width="70" height="70">
+          <use xlink:href="#arrow-left"></use>
+        </svg>
+      </div>
+      <div
+        class="position-absolute top-50 end-0 translate-middle-y main-slider-button-next d-none d-md-block"
+      >
+        <svg class="bg-secondary rounded-circle p-3" width="70" height="70">
+          <use xlink:href="#arrow-right"></use>
+        </svg>
+      </div>
+      <div
+        class="position-absolute top-100 end-50 translate-middle main-slider-button-prev mt-5 d-md-none d-block"
+      >
+        <svg class="bg-secondary rounded-circle p-2" width="50" height="50">
+          <use xlink:href="#arrow-left"></use>
+        </svg>
+      </div>
+      <div
+        class="position-absolute top-100 start-50 translate-middle main-slider-button-next mt-5 ms-4 d-md-none d-block"
+      >
+        <svg class="bg-secondary rounded-circle p-2" width="50" height="50">
+          <use xlink:href="#arrow-right"></use>
+        </svg>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="services" class="padding-medium">
+    <div class="container-fluid padding-side" data-aos="fade-up">
+      <h3 class="display-3 text-center fw-normal col-lg-4 offset-lg-4">Our Beauty Services</h3>
+      <div class="row mt-5">
+        <div class="col-md-6 col-xl-4">
+          <div class="service mb-4 text-center rounded-4 p-5">
+            <div class="position-relative">
+             
+<svg fill="#ecb27b" class="color" version="1.1" width="70" height="70" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 80.08 122.88" style="enable-background:new 0 0 80.08 122.88" ><g><path d="M70.04,95.5c-0.01-0.82,0.65-1.5,1.48-1.51c0.82-0.01,1.5,0.65,1.51,1.48c0.02,1.49-0.18,2.91-0.55,4.26 c-0.37,1.35-0.91,2.63-1.59,3.85c-0.4,0.72-1.31,0.98-2.03,0.58c-0.72-0.4-0.98-1.31-0.58-2.03c0.57-1.02,1.02-2.08,1.32-3.18 C69.9,97.85,70.06,96.71,70.04,95.5L70.04,95.5z M25.69,74.87c1.01,0.48,1.72,1.63,1.72,2.97c0,1.77-1.23,3.21-2.75,3.21 c-1.52,0-2.75-1.44-2.75-3.21c0-1.38,0.75-2.56,1.8-3.01l-0.08,0.01c-2.28,0.21-4.36,1.26-6.23,3.18c-0.58,0.59-1.52,0.6-2.11,0.03 c-0.59-0.58-0.6-1.52-0.03-2.11c2.39-2.45,5.09-3.79,8.1-4.06c2.93-0.27,6.1,0.5,9.5,2.28c0.73,0.38,1.01,1.28,0.63,2.01 c-0.38,0.73-1.28,1.01-2.01,0.63C29.41,75.71,27.48,75.07,25.69,74.87L25.69,74.87z M51.83,74.49c-1.01,0.48-1.72,1.63-1.72,2.97 c0,1.77,1.23,3.21,2.75,3.21s2.75-1.43,2.75-3.21c0-1.38-0.75-2.56-1.8-3.01l0.08,0.01c2.28,0.21,4.35,1.26,6.23,3.18 c0.58,0.59,1.52,0.6,2.11,0.03c0.59-0.58,0.6-1.52,0.03-2.11c-2.39-2.45-5.09-3.79-8.1-4.07c-2.93-0.27-6.1,0.5-9.5,2.28 c-0.73,0.38-1.01,1.28-0.63,2.01c0.38,0.73,1.28,1.01,2.01,0.63C48.11,75.33,50.04,74.69,51.83,74.49L51.83,74.49z M3.97,78.92 c-0.07-0.11-0.13-0.23-0.18-0.36c-1.92-5.81-3.27-11.52-3.67-17.07c-0.41-5.61,0.16-11.03,2.07-16.2 c2.44-6.57,7.39-12.73,13.48-17.4c1.69-1.3,3.47-2.48,5.31-3.53c-2.7-4.25-3.37-8.16-2.61-11.57c0.65-2.9,2.33-5.39,4.67-7.38 c2.26-1.92,5.15-3.39,8.32-4.3c6.85-1.99,15.07-1.44,21.03,2.48c2.34,1.54,4.5,3.35,6.05,5.55c1.61,2.29,2.56,4.97,2.39,8.15 c-0.08,1.52-0.44,3.02-1.06,4.52c-0.38,0.92-0.85,1.83-1.41,2.74c6.56,3.55,12.3,8.65,16.02,14.5c3.24,5.11,5.15,10.96,5.59,17.63 c0.43,6.59-0.58,13.96-3.17,22.2c-0.14,0.45-0.48,0.79-0.89,0.95c0.06,0.21,0.11,0.42,0.15,0.63c0.36,1.76,0.19,3.5-0.38,5.07 c-0.57,1.57-1.55,2.97-2.81,4.06c-1.94,1.66-4.57,2.59-7.48,2.26c-0.17,0.37-0.34,0.74-0.52,1.11c-0.76,1.57-1.65,3.13-2.63,4.66 l0.99,4.19l8.31,14.47l0,0c0.04,0.08,0.08,0.16,0.11,0.25c0.52,1.48,0.32,2.85-0.28,3.94c-0.39,0.71-0.96,1.29-1.61,1.7 c-0.66,0.42-1.43,0.67-2.2,0.7c-1.14,0.06-2.29-0.33-3.2-1.29l0,0c-0.03-0.04-0.06-0.07-0.09-0.11l-9.99-12.91 c-0.07-0.05-0.13-0.11-0.18-0.18l-0.99-0.68c-0.33,0.25-0.68,0.49-1.03,0.73c-0.58,0.4-1.16,0.76-1.72,1.08 c-1.01,0.57-2.07,1.07-3.2,1.48c-1.13,0.41-2.32,0.73-3.58,0.94c-1.51,0.26-3.05,0.38-4.62,0.32c-1.58-0.05-3.17-0.28-4.79-0.71 l0,0c-0.05-0.01-0.09-0.03-0.14-0.04c-7.93-2.95-14.03-8.38-18.17-16.34c-0.55-1.06-1.07-2.17-1.55-3.32 c-2.95,0.36-5.61-0.57-7.57-2.25c-1.27-1.09-2.24-2.49-2.81-4.06c-0.57-1.57-0.74-3.31-0.38-5.07C3.63,79.95,3.78,79.43,3.97,78.92 L3.97,78.92z M28.35,21.06c2.52-0.85,5.08-1.41,7.62-1.65c0.24-0.02,0.48-0.04,0.71-0.06c1.01-0.08,2.01-0.11,3.02-0.1 c4.04,0.05,8.06,0.83,12.05,2.35c1.34,0.47,2.65,1.01,3.95,1.61c0.54-0.84,0.99-1.69,1.33-2.53c0.48-1.18,0.77-2.36,0.83-3.54 c0.14-2.43-0.6-4.49-1.85-6.26c-1.31-1.86-3.19-3.43-5.24-4.78c-5.2-3.42-12.46-3.88-18.56-2.11c-2.77,0.8-5.28,2.07-7.22,3.72 c-1.86,1.58-3.19,3.52-3.69,5.75c-0.61,2.7,0,5.9,2.33,9.49C25.21,22.21,26.78,21.58,28.35,21.06L28.35,21.06z M74.38,76.6 c2.16-7.32,3-13.88,2.62-19.74c-0.4-6.14-2.15-11.52-5.13-16.21c-3.6-5.67-9.28-10.59-15.74-13.91c-0.25,0.01-0.51-0.05-0.74-0.18 l0,0c-1.63-0.88-3.26-1.62-4.88-2.24c-4.47-1.55-9.11-2.3-13.55-2c-2.79,0.22-5.59,0.83-8.4,1.82c-3.87,1.4-7.65,3.51-11.06,6.12 C11.84,34.61,7.25,40.3,5.01,46.34c-1.76,4.74-2.27,9.75-1.9,14.94C3.45,65.91,4.49,70.7,6,75.6c0.92-1.06,2.11-2.05,3.58-2.94 c0.09-0.05,0.18-0.1,0.27-0.13c-0.17-1.91-0.29-3.89-0.36-5.94c-0.74,0.16-1.48,0.31-2.23,0.45c-0.81,0.15-1.59-0.38-1.74-1.19 c-0.15-0.81,0.38-1.59,1.19-1.74c8.01-1.52,15.12-3.78,20.7-7.3c5.46-3.44,9.48-8.11,11.44-14.52c0.24-0.79,1.08-1.23,1.87-0.99 c0.56,0.17,0.94,0.64,1.03,1.18l0,0c1.06,6.19,4.39,10.91,9.61,14.42c5.36,3.61,12.72,5.96,21.65,7.33 c0.82,0.12,1.38,0.89,1.26,1.7c-0.12,0.82-0.89,1.38-1.7,1.26c-0.92-0.14-1.82-0.29-2.71-0.45c-0.04,2.02-0.12,3.93-0.24,5.76 c0.14,0.04,0.27,0.09,0.4,0.17C71.94,73.83,73.38,75.18,74.38,76.6L74.38,76.6z M66.88,66.14c-6.84-1.5-12.64-3.71-17.19-6.76 c-4.58-3.08-7.88-7-9.7-11.9c-2.46,4.99-6.24,8.85-11,11.86c-4.67,2.94-10.29,5.05-16.54,6.59c0.31,11.51,2.36,20.78,6.04,27.86 c3.78,7.26,9.3,12.2,16.47,14.89c1.38,0.36,2.74,0.55,4.07,0.6c1.35,0.05,2.7-0.06,4.04-0.29c1.08-0.18,2.09-0.45,3.05-0.8 c0.96-0.35,1.87-0.77,2.74-1.27c0.53-0.3,1.04-0.62,1.53-0.95l0.09-0.06l-3.64-2.5c-1.62-1.11-2.6-2.23-2.95-3.67 c-0.35-1.41-0.04-2.94,0.93-4.87c0.97-1.93,2.63-3.6,4.68-4.71c1.93-1.05,4.23-1.61,6.61-1.46c4.16,0.27,4.25,0.7,4.94,3.79 c0.02,0.1,0.05,0.21,0.18,0.76l0.04,0.18c0.33-0.59,0.63-1.19,0.92-1.78c0.76-1.55,1.39-3.09,1.86-4.56 c0.94-2.9,1.64-6.12,2.11-9.74C66.58,73.99,66.82,70.28,66.88,66.14L66.88,66.14z M10.21,75.83c-2.23,1.59-3.4,3.43-3.76,5.23 c-0.24,1.2-0.13,2.39,0.26,3.47c0.39,1.08,1.07,2.05,1.95,2.8c1.19,1.02,2.76,1.64,4.52,1.61C11.83,85.03,10.83,80.66,10.21,75.83 L10.21,75.83z M69.33,75.79c-0.07,0.66-0.14,1.3-0.23,1.93c-0.49,3.83-1.23,7.22-2.22,10.28c-0.1,0.31-0.21,0.62-0.32,0.93 c1.69-0.01,3.2-0.62,4.36-1.61c0.88-0.75,1.55-1.72,1.95-2.8c0.39-1.08,0.51-2.27,0.26-3.47C72.77,79.24,71.59,77.38,69.33,75.79 L69.33,75.79z M48.51,100.94l6.71,4.6l4.96-3.59l-1.89-8.01l-0.18-0.8c-0.26-1.16-0.29-1.33-2.21-1.45 c-1.8-0.12-3.54,0.31-5.01,1.1c-1.51,0.82-2.73,2.02-3.42,3.41c-0.63,1.27-0.87,2.16-0.7,2.82 C46.93,99.65,47.52,100.25,48.51,100.94L48.51,100.94z M57.37,107.68l1.27,1.64l3.86-2.77l-1.05-1.83L57.37,107.68L57.37,107.68z M60.47,111.69l6.1,7.88c0.24,0.24,0.55,0.34,0.84,0.32c0.26-0.01,0.52-0.1,0.75-0.25c0.24-0.15,0.45-0.37,0.6-0.62 c0.2-0.36,0.27-0.83,0.11-1.37l-4.88-8.49L60.47,111.69L60.47,111.69z M65.1,94.81c-0.01-0.82,0.65-1.5,1.48-1.51 c0.82-0.01,1.5,0.65,1.51,1.48c0.01,1.19-0.14,2.33-0.44,3.41c-0.3,1.08-0.73,2.1-1.27,3.07c-0.4,0.72-1.31,0.98-2.03,0.58 c-0.72-0.4-0.98-1.31-0.58-2.03c0.43-0.77,0.77-1.57,1-2.4C64.99,96.58,65.11,95.72,65.1,94.81L65.1,94.81z"/></g></svg>
+
+              <img src="images/pattern2.png" alt="img" class="position-absolute top-100 start-50 translate-middle z-n1 pe-5">
+            </div>
+            <h4 class="display-6 fw-normal my-3">Bridal Makeup</h4>
+            <p>Make your wedding day unforgettable with our premium bridal makeup services. Our expert artists use high-end products to create a flawless, long-lasting look that enhances your natural beauty. From traditional to contemporary styles, we ensure you look picture-perfect throughout your special day.</p>
+            
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <div class="service mb-4 text-center rounded-4 p-5">
+            <div class="position-relative">
+              <svg width="70" height="70" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#ecb27b" stroke="#ecb27b"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --> <title>Weddingday</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="colored" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Holidays_sliced" sketch:type="MSLayerGroup" transform="translate(-240.000000, 0.000000)"> </g> <g id="Holidays" sketch:type="MSLayerGroup" transform="translate(-235.000000, 3.000000)" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <g id="Weddingday" transform="translate(241.000000, 7.000000)" sketch:type="MSShapeGroup"> <path d="M19,4 L29,4 L29,4.99781374 C29,7.77101511 31.2385763,10 34,10 C36.7558048,10 39,7.76044493 39,4.99781374 L39,4 L44.997385,4 C46.6556835,4 48,5.34230941 48,7.0065012 L48,40.9934988 C48,42.6539436 46.6661074,44 44.997385,44 L3.00261497,44 C1.34431651,44 0,42.6576906 0,40.9934988 L0,7.0065012 C0,5.34605644 1.33389258,4 3.00261497,4 L9,4 L9,4.99781374 C9,7.77101511 11.2385763,10 14,10 C16.7558048,10 19,7.76044493 19,4.99781374 L19,4 Z" id="Rectangle-1907" fill="#ecb27b"> </path> <rect id="Rectangle-1911" fill="#D8D8D8" x="12" y="0" width="4" height="7" rx="3"> </rect> <rect id="Rectangle-1912" fill="#D8D8D8" x="32" y="0" width="4" height="7" rx="3"> </rect> <rect id="Rectangle-1910" fill="#D8D8D8" x="4" y="14" width="40" height="27"> </rect> <path d="M18.9914244,20.7429055 C16.4134132,21.7325112 15.4466498,25.4605926 16.8320979,29.0698082 C18.2160101,32.675023 23.8586375,35.3105831 23.8586375,35.3105831 C23.8586375,35.3105831 29.7839899,32.675023 31.1679021,29.0698082 C32.5533502,25.4605926 31.5865868,21.7325112 29.0085756,20.7429055 C27.3859347,20.120032 25.5117266,20.7305046 24,22.1684737 C24,22.1684737 20.6140653,20.120032 18.9914244,20.7429055 Z" id="Oval-1691" fill="#Ecb"> </path> </g> </g> </g> </g></svg>
+              
+              
+
+              <img src="images/pattern2.png" alt="img" class="position-absolute top-100 start-50 translate-middle z-n1 pe-5">
+            </div>
+            <h4 class="display-6 fw-normal my-3">Party Makeup</h4>
+            <p>Get ready to turn heads at any event with our glamorous party makeup services. Whether it's a cocktail party, reception, or special occasion, our skilled artists will create the perfect look to match your outfit and personality. Using premium products for a stunning finish.</p>
+            
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <div class="service mb-4 text-center rounded-4 p-5">
+            <div class="position-relative">
+              <svg width="70" height="70" viewBox="0 0 1024 1024" fill="#ecb27b" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#ecb27b" stroke-width="10" >
+
+                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                
+                <g id="SVGRepo_iconCarrier">
+                
+                <path d="M512 720.004c-109.594 0-268.062-158.648-286.202-327.136a7.998 7.998 0 0 1 7.094-8.812c4.608-0.468 8.342 2.718 8.812 7.094 8.148 75.666 46.88 155.6 106.282 219.298 53.802 57.714 116.65 93.556 164.014 93.556 102.306 0 271.984-166.6 271.984-343.978 0-4.422 3.578-8 8-8a7.994 7.994 0 0 1 7.998 8c0 191.738-179.488 359.978-287.982 359.978z" fill=""/>
+                
+                <path d="M951.972 1023.968H72.028c-4.422 0-8-3.578-8-8v-95.992c0-68.652 35.568-94.964 101.19-119.494 10.288-3.828 22.662-7.766 36.13-12.044 63.582-20.204 150.662-47.874 150.662-108.448 0-4.422 3.578-8 8-8s8 3.578 8 8c0 72.276-93.526 101.994-161.818 123.696-13.186 4.188-25.304 8.032-35.372 11.796-61.512 22.982-90.792 44.496-90.792 104.494v87.994h863.948v-87.994c0-56.466-26.404-78.122-75.106-98.34a8.004 8.004 0 0 1-4.328-10.452c1.704-4.078 6.406-6.032 10.454-4.328 52.464 21.764 84.978 48.28 84.978 113.12v95.992a8 8 0 0 1-8.002 8zM700.738 751.968a7.99 7.99 0 0 1-4.812-1.608c-26.498-19.954-39.934-43.624-39.934-70.372 0-4.422 3.578-8 7.998-8 4.422 0 8 3.578 8 8 0 21.748 10.968 40.592 33.56 57.59a8 8 0 0 1-4.812 14.39z" fill=""/>
+                
+                <path d="M360.01 687.988c-4.422 0-8-3.576-8-7.998v-46.014c0-4.422 3.578-8 8-8s8 3.578 8 8v46.014a7.994 7.994 0 0 1-8 7.998zM663.99 687.988a7.994 7.994 0 0 1-7.998-7.998V633.96c0-4.422 3.578-8 7.998-8 4.422 0 8 3.578 8 8v46.03a7.994 7.994 0 0 1-8 7.998zM823.98 328.012a7.994 7.994 0 0 1-7.998-8C815.982 152.396 679.616 16.03 512 16.03S208.018 152.396 208.018 320.012c0 4.422-3.578 8-8 8-4.422 0-8-3.578-8-8 0-176.442 143.546-319.98 319.98-319.98 176.426 0 319.98 143.538 319.98 319.98a7.992 7.992 0 0 1-7.998 8zM264.008 543.998a7.95 7.95 0 0 1-4.79-1.594c-66.434-49.824-67.2-169.334-67.2-174.396a8 8 0 0 1 16 0c0 1.156 0.79 116.586 60.792 161.584a7.994 7.994 0 0 1 1.602 11.202 7.98 7.98 0 0 1-6.404 3.204z" fill=""/>
+                
+                <path d="M200.012 376.008a7.994 7.994 0 0 1-7.828-6.39 7.992 7.992 0 0 1 6.218-9.436c277.78-57.326 505.648-283 507.93-285.28a8 8 0 1 1 11.312 11.312c-2.296 2.296-233.448 231.33-516.008 289.624a7.448 7.448 0 0 1-1.624 0.17z" fill=""/>
+                
+                <path d="M823.652 345.448c-0.906 0-1.828-0.156-2.734-0.484-149.896-54.606-259.078-137.772-260.156-138.6a7.996 7.996 0 0 1-1.468-11.218 8.038 8.038 0 0 1 11.218-1.468c1.062 0.812 108.416 82.542 255.876 136.258a7.996 7.996 0 0 1-2.736 15.512zM512 911.976c-218.908 0-269.382-121.07-271.42-126.21a8.002 8.002 0 0 1 4.476-10.376c4.07-1.656 8.742 0.36 10.39 4.454 0.468 1.156 49.24 116.132 256.554 116.132 49.902 0 94.792-6.64 133.43-19.716 4.188-1.36 8.718 0.828 10.14 5.014a7.994 7.994 0 0 1-5.016 10.14c-40.278 13.64-86.902 20.562-138.554 20.562zM777.89 847.98a8.002 8.002 0 0 1-7.11-4.328 8.006 8.006 0 0 1 3.454-10.782l62.09-32.014c3.906-2.046 8.718-0.484 10.766 3.438a8.006 8.006 0 0 1-3.454 10.782l-62.09 32.014a7.79 7.79 0 0 1-3.656 0.89z" fill=""/>
+                
+                <path d="M839.98 911.976c-4.422 0-8-3.578-8-8v-96.01c0-4.422 3.578-8 8-8s8 3.578 8 8v96.01c0 4.422-3.578 8-8 8z" fill=""/>
+                
+                <path d="M839.98 911.976c-1.25 0-2.5-0.282-3.656-0.89l-62.09-32.03a8.008 8.008 0 0 1-3.454-10.782c2.016-3.922 6.86-5.484 10.766-3.438l62.09 32.03a8.008 8.008 0 0 1 3.454 10.782 8 8 0 0 1-7.11 4.328zM679.99 911.976a8.002 8.002 0 0 1-7.11-4.328 8.006 8.006 0 0 1 3.454-10.782l62.122-32.03c3.89-2.046 8.718-0.484 10.766 3.438a8.006 8.006 0 0 1-3.454 10.782l-62.122 32.03a7.79 7.79 0 0 1-3.656 0.89z" fill=""/>
+                
+                <path d="M679.99 911.976c-4.422 0-8-3.578-8-8v-96.01c0-4.422 3.578-8 8-8s7.998 3.578 7.998 8v96.01c0 4.422-3.576 8-7.998 8z" fill=""/>
+                
+                <path d="M742.08 847.964c-1.25 0-2.5-0.282-3.656-0.89l-62.09-31.998c-3.938-2.016-5.468-6.844-3.454-10.782a7.988 7.988 0 0 1 10.766-3.438l62.09 31.998c3.938 2.016 5.468 6.844 3.454 10.782a8.002 8.002 0 0 1-7.11 4.328z" fill=""/>
+                
+                <path d="M759.984 887.96c-17.654 0-31.998-14.358-31.998-31.996 0-17.64 14.344-32 31.998-32 17.656 0 32 14.36 32 32s-14.344 31.996-32 31.996z m0-47.996c-8.81 0-15.998 7.172-15.998 16 0 8.826 7.188 15.998 15.998 15.998 8.812 0 16-7.172 16-15.998 0-8.828-7.188-16-16-16zM759.984 975.972a8 8 0 0 1-7.828-9.656c1.36-6.438 3.954-16 6.704-26.186 3.562-13.172 7.624-28.108 9.25-37.514 0.75-4.344 4.938-7.25 9.234-6.532a7.994 7.994 0 0 1 6.516 9.25c-1.75 10.14-5.718 24.794-9.562 38.982-2.656 9.842-5.172 19.076-6.484 25.31a7.996 7.996 0 0 1-7.83 6.346zM785.36 815.982a7.99 7.99 0 0 1-7.938-8.984c25.936-209.376 38.124-467.346 38.248-469.924 0.188-4.422 3.56-8 8.358-7.608a7.968 7.968 0 0 1 7.61 8.358c-0.124 2.578-12.312 261.14-38.342 471.144a7.994 7.994 0 0 1-7.936 7.014z" fill=""/>
+                
+                <path d="M759.796 975.972a8 8 0 0 1-7.812-6.344c-1.294-6.124-3.716-15.188-6.31-24.874-3.844-14.344-7.812-29.186-9.562-39.42a7.994 7.994 0 0 1 6.532-9.25c4.39-0.734 8.5 2.188 9.216 6.532 1.64 9.532 5.688 24.654 9.266 38.014 2.672 9.998 5.172 19.358 6.516 25.686a8.014 8.014 0 0 1-7.846 9.656zM734.456 815.998c-4 0-7.436-2.968-7.936-7.016-6.968-56.326-13.578-121.026-19.624-192.316a7.996 7.996 0 0 1 7.282-8.64c4.532-0.282 8.282 2.89 8.656 7.296 6.03 71.09 12.624 135.586 19.56 191.692a7.99 7.99 0 0 1-7.938 8.984zM823.652 345.448h-0.14a8 8 0 0 1-7.858-8.156l0.328-17.436c0.094-4.406 3.904-8.61 8.154-7.844a8.008 8.008 0 0 1 7.844 8.156l-0.328 17.436a7.994 7.994 0 0 1-8 7.844zM200.02 376.008c-4.422 0-8-3.578-8-8v-47.998c0-4.422 3.578-8 8-8 4.42 0 8 3.578 8 8v47.998a7.998 7.998 0 0 1-8 8z" fill=""/>
+                
+                <path d="M791.984 687.988a7.974 7.974 0 0 1-5.656-2.342l-63.996-63.996a8 8 0 0 1 11.31-11.312l63.996 63.996a8 8 0 0 1-5.654 13.654z" fill=""/>
+                
+                <path d="M727.986 687.988a8 8 0 0 1-5.654-13.654l63.996-63.996a8 8 0 0 1 11.31 11.312l-63.996 63.996a7.97 7.97 0 0 1-5.656 2.342z" fill=""/>
+                
+                <path d="M792.358 752.36a7.974 7.974 0 0 1-5.654-2.342l-64.372-64.372a8 8 0 0 1 11.31-11.312l64.372 64.372a8 8 0 0 1-5.656 13.654z" fill=""/>
+                
+                <path d="M727.986 751.984a8 8 0 0 1-5.654-13.654l63.996-63.996a8 8 0 0 1 11.31 11.312l-63.996 63.996a7.962 7.962 0 0 1-5.656 2.342z" fill=""/>
+                
+                <path d="M786.094 809.904a7.976 7.976 0 0 1-5.656-2.344l-58.106-58.106a8 8 0 0 1 11.31-11.312l58.108 58.106a8 8 0 0 1-5.656 13.656z" fill=""/>
+                
+                <path d="M733.876 809.904a8 8 0 0 1-5.656-13.656l58.108-58.106a8 8 0 0 1 11.31 11.312l-58.106 58.106a7.964 7.964 0 0 1-5.656 2.344z" fill=""/>
+                
+                </g>
+                
+                </svg>
+              <img src="images/pattern2.png" alt="img" class="position-absolute top-100 start-50 translate-middle z-n1 pe-5">
+            </div>
+            <h4 class="display-6 fw-normal my-3">Hair Styling</h4>
+            <p>Complete your look with our professional hair styling services. From elegant updos to romantic waves, our stylists create stunning hairstyles that complement your makeup and outfit. Using quality products and techniques for long-lasting results.</p>
+            
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <div class="service mb-4 text-center rounded-4 p-5">
+            <div class="position-relative">
+              <svg width="70" height="70" enable-background="new 0 0 512 512" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                <linearGradient id="a" x1="93.917" x2="362.36" y1="51.275" y2="440.61" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FFD3B6" offset="0"/>
+                  <stop stop-color="#ecb27b" offset=".4849"/>
+                  <stop stop-color="#edb67c" offset="1"/>
+                </linearGradient>
+                <path d="m231.9 233.34c2.586 0 5.125-1.25 6.664-3.562 2.453-3.68 1.461-8.641-2.219-11.094-22.18-14.781-43.961-0.609-44.875 0-3.656 2.438-4.641 7.352-2.227 11.031 2.414 3.688 7.383 4.688 11.055 2.312 0.562-0.367 13.977-8.836 27.172-0.031 1.368 0.906 2.907 1.344 4.43 1.344z" fill="url(#a)"/>
+                <linearGradient id="b" x1="85.462" x2="353.91" y1="57.105" y2="446.44" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FFD3B6" offset="0"/>
+                  <stop stop-color="#e8b279" offset=".4849"/>
+                  <stop stop-color="#e6b178" offset="1"/>
+                </linearGradient>
+                <path d="m276.5 297.08c-20.039 9.477-40.805 0.172-41.195-8e-3 -3.992-1.875-8.734-0.156-10.625 3.828-1.883 3.992-0.18 8.758 3.82 10.648 0.734 0.352 12.57 5.812 28.32 5.812 8.117 0 17.289-1.453 26.508-5.812 4-1.891 5.703-6.656 3.82-10.648-1.89-3.992-6.656-5.718-10.648-3.82z" fill="url(#b)"/>
+                <linearGradient id="g" x1="150.85" x2="419.29" y1="12.02" y2="401.35" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FFD3B6" offset="0"/>
+                  <stop stop-color="#f0b97d" offset=".4849"/>
+                  <stop stop-color="#e8b279" offset="1"/>
+                </linearGradient>
+                <path d="m275.48 218.68c-3.656 2.438-4.641 7.352-2.227 11.031 2.414 3.688 7.383 4.688 11.055 2.312 0.57-0.367 13.977-8.836 27.172-0.031 1.367 0.906 2.906 1.344 4.43 1.344 2.586 0 5.125-1.25 6.664-3.562 2.453-3.68 1.461-8.641-2.219-11.094-22.18-14.782-43.961-0.61-44.875 0z" fill="url(#g)"/>
+                <linearGradient id="f" x1="72.3" x2="340.74" y1="66.18" y2="455.51" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FFD3B6" offset="0"/>
+                  <stop stop-color="#ebb57b" offset=".4849"/>
+                  <stop stop-color="#e8b37b" offset="1"/>
+                </linearGradient>
+                <path d="m377.1 20.062c-20.563-15.343-43.875-22.578-62.477-19.312-10.648 1.859-19.07 7.078-24.359 15.109-3.058 4.662-4.514 11.492-5.035 17.632-5.792-0.88-11.665-1.491-17.684-1.491h-23.266c-68.578 0-124.37 59.156-124.37 131.88v112.12c0 11.031 8.969 20 20 20h8c3.205 0 6.192-0.827 8.879-2.171 4.552 14.706 13.181 32.418 29.621 47.984 7.991 7.566 16.334 13.102 24.507 17.389 0.861 17.067-0.199 57.897-27.913 73.392-7.797 4.359-18.023 7.406-24.836 7.406-20.109-0.102-54.242-0.211-56.82 0.039-33.945 3.328-61.773 28.344-69.25 62.242-0.523 2.367 0.055 4.844 1.578 6.727 1.516 1.891 3.812 2.992 6.234 2.992h428.44c2.422 0 4.719-1.102 6.234-2.992 1.523-1.883 2.102-4.359 1.578-6.727-7.477-33.898-35.305-58.914-69.258-62.242-2.586-0.25-36.703-0.141-56.781-0.039-6.844 0-17.07-3.047-24.867-7.406-26.719-14.939-28.662-53.418-27.996-71.46 9.306-4.454 18.967-10.632 28.144-19.321 16.404-15.532 25.032-33.201 29.597-47.997 2.693 1.352 5.689 2.185 8.903 2.185h8c11.031 0 20-8.969 20-20v-112.13c0-16.312-2.939-31.875-8.068-46.309 9.653-2.082 21.605-6.018 26.357-13.324 14.665-22.304 0.126-59.273-33.1-84.18zm-132.82 27.938h23.266c7.435 0 14.695 0.81 21.712 2.342 1.179 0.684 2.474 1.182 3.937 1.182 0.08 0 0.146-0.043 0.226-0.045 47.281 12.456 82.493 58.055 82.493 112.4v44.529c-1.293-0.263-2.63-0.404-4-0.404h-8c-1.37 0-2.707 0.141-4 0.404v-24.405c0-2.32-1.008-4.523-2.758-6.047-1.742-1.516-4.086-2.203-6.375-1.875-70.305 10.039-117.62-40.195-126.87-50.953v-37.125c0-4.422-3.578-8-8-8s-8 3.578-8 8v39.062c-2.039 8.273-7.43 23.031-21.211 34.867-8.086 6.938-17.953 11.875-28.555 14.266-3.648 0.828-6.234 4.062-6.234 7.805l7e-3 24.405c-1.295-0.264-2.635-0.405-4.007-0.405h-8c-1.37 0-2.707 0.141-4 0.404v-44.529c-1e-3 -63.891 48.609-115.88 108.37-115.88zm-92.367 228c0 2.172-1.828 4-4 4h-8c-2.172 0-4-1.828-4-4v-48c0-2.172 1.828-4 4-4h8c2.172 0 4 1.828 4 4v48zm165.54 170.56c7.789 4.352 21.023 9.438 32.719 9.438 19.914-0.086 52.555-0.18 55.18-0.039 23.688 2.32 43.648 17.961 52.25 40.039h-406.93c8.594-22.078 28.531-37.711 52.07-40.023 2.805-0.156 35.438-0.07 55.391 0.023 11.664 0 24.898-5.086 32.688-9.438 31.471-17.594 36.264-57.624 36.265-80.374 11.24 3.792 21.296 5.307 28.274 5.795 0.18 8e-3 0.367 0.016 0.555 0.016s0.375-8e-3 0.555-0.016c6.23-0.436 14.938-1.721 24.72-4.668 0.163 22.928 5.315 61.946 36.263 79.247zm-3.039-116.37c-21.937 20.781-47.812 24.969-58.5 25.789-10.688-0.82-36.562-5.008-58.5-25.789-24.281-22.984-28.734-51.539-29.5-62.188v-77.867c10.766-3.328 20.766-8.812 29.211-16.062 11.297-9.695 18.047-20.938 22.055-30.406 18.422 18.695 62.375 54.383 124.73 49.281l0.011 34.946c0 0.037-0.011 0.072-0.011 0.109v39.714c-0.839 11.383-5.401 39.661-29.5 62.473zm61.5-54.188c0 2.172-1.828 4-4 4h-8c-2.172 0-4-1.828-4-4v-48c0-2.172 1.828-4 4-4h8c2.172 0 4 1.828 4 4v48zm20.899-180.52c-1.289 1.83-8.623 5.053-19.27 7.042-15.779-31.678-43.361-55.67-76.505-65.523 0.225-5.288 1.361-10.466 2.596-12.347 2.836-4.297 7.461-7.039 13.758-8.141 14.062-2.414 33.297 3.812 50.125 16.367 25.585 19.18 39.007 47.828 29.296 62.602z" fill="url(#f)"/>
+                <linearGradient id="e" x1="48.941" x2="317.38" y1="82.286" y2="471.62" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FFD3B6" offset="0"/>
+                  <stop stop-color="#f2ba7e" offset=".4849"/>
+                  <stop stop-color="#e0ad77" offset="1"/>
+                </linearGradient>
+                <path d="m103.98 96c-3.328-0.062-32.062-1.953-32.062-48 0-4.422-3.578-8-8-8s-8 3.578-8 8c0 46.094-28.789 47.938-32 48h-0.047c-8e-3 -8e-3 -0.031-8e-3 -0.055 0h-8e-3 -8e-3 -8e-3 -0.016c-4.352 0.078-7.859 3.633-7.859 8 0 4.398 3.547 7.969 7.938 8 3.328 0.062 32.062 1.953 32.062 48 0 4.422 3.578 8 8 8s8-3.578 8-8c0-46.047 28.734-47.938 32.062-48h0.039 8e-3 8e-3 8e-3 0.016c4.352-0.078 7.859-3.633 7.859-8 0-4.398-3.547-7.969-7.937-8zm-40.063 26.203c-4.5-8.562-10.375-14.32-16.227-18.203 5.852-3.883 11.727-9.641 16.227-18.203 4.5 8.562 10.375 14.32 16.227 18.203-5.852 3.883-11.727 9.641-16.227 18.203z" fill="url(#e)"/>
+                <linearGradient id="d" x1="164.14" x2="432.59" y1="2.8535" y2="392.19" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FFD3B6" offset="0"/>
+                  <stop stop-color="#edb67c" offset=".4849"/>
+                  <stop stop-color="#e6b178" offset="1"/>
+                </linearGradient>
+                <path d="m375.91 360h-0.047c0-8e-3 -0.039-8e-3 -0.055 0h-8e-3 -8e-3 -8e-3 -0.016c-4.352 0.078-7.859 3.633-7.859 8 0 4.398 3.547 7.969 7.938 8 3.328 0.062 32.062 1.953 32.062 48 0 4.422 3.578 8 8 8s8-3.578 8-8c0-46.047 28.734-47.938 32.062-48h0.039 8e-3 8e-3 8e-3 0.016c4.352-0.078 7.859-3.633 7.859-8 0-4.398-3.547-7.969-7.938-8-3.328-0.062-32.062-1.953-32.062-48 0-4.422-3.578-8-8-8s-8 3.578-8 8c1e-3 46.094-28.788 47.938-31.999 48zm40-10.203c4.5 8.562 10.375 14.32 16.227 18.203-5.852 3.883-11.727 9.641-16.227 18.203-4.5-8.562-10.375-14.32-16.227-18.203 5.852-3.883 11.727-9.641 16.227-18.203z" fill="url(#d)"/>
+                <linearGradient id="c" x1="-55.069" x2="213.38" y1="154" y2="543.33" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FFD3B6" offset="0"/>
+                  <stop stop-color="#f5bf85" offset=".4849"/>
+                  <stop stop-color="#e6b37c" offset="1"/>
+                </linearGradient>
+                <path d="m100.48 328c0-4.422-3.578-8-8-8s-8 3.578-8 8c0 30.57-18.555 31.945-20.57 32h-0.016-8e-3 -0.016-8e-3c0-8e-3 -0.039-8e-3 -0.055 0h-0.023c-4.359 0.07-7.875 3.625-7.875 8 0 4.391 3.539 7.953 7.914 8 2.195 0.062 20.656 1.508 20.656 32 0 4.422 3.578 8 8 8s8-3.578 8-8c0-30.492 18.461-31.938 20.656-32h0.016 0.023c4.359-0.07 7.875-3.625 7.875-8 0-4.391-3.539-7.953-7.914-8-2.194-0.062-20.655-1.508-20.655-32zm-8 48.445c-2.32-3.508-4.969-6.273-7.688-8.445 2.719-2.172 5.367-4.938 7.688-8.445 2.32 3.508 4.969 6.273 7.688 8.445-2.719 2.172-5.367 4.938-7.688 8.445z" fill="url(#c)"/>
+                </svg>
+                
+              <img src="images/pattern2.png" alt="img" class="position-absolute top-100 start-50 translate-middle z-n1 pe-5">
+            </div>
+            <h4 class="display-6 fw-normal my-3">Skin Care</h4>
+            <p>Achieve glowing, healthy skin with our premium skincare services. Our experts provide personalized consultations and treatments using high-quality products. From pre-bridal packages to regular maintenance, we help you maintain beautiful, radiant skin.</p>
+            
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <div class="service mb-4 text-center rounded-4 p-5">
+            <div class="position-relative">
+              <svg class="color" width="70" height="70">
+                <use xlink:href="#armchair"></use>
+              </svg>
+              <img src="images/pattern2.png" alt="img" class="position-absolute top-100 start-50 translate-middle z-n1 pe-5">
+            </div>
+            <h4 class="display-6 fw-normal my-3">Makeup Classes</h4>
+            <p>Learn the art of makeup from our experienced professionals. Whether you're a beginner or looking to enhance your skills, our comprehensive classes cover everything from basic techniques to advanced styling. Join our workshops to master the craft.</p>
+            
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <div class="service mb-4 text-center rounded-4 p-5">
+            <div class="position-relative">
+              <svg width="70" height="70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 256 256" enable-background="new 0 0 256 256" xml:space="preserve">
+                <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+                <g><g><g><path fill="#ecb27b" data-title="Layer 0" xs="0" d="M140.5,24.7c-14.4,3.8-25.6,14.2-31,28.7c-2.3,6.2-2.9,17.5-1.3,23.9c1.1,4.3,4.4,11.6,6.9,15.4l1.4,2.1l-1.5,0.9c-0.8,0.5-2.5,1.5-3.7,2.2l-2.2,1.4l-4.6-2.5c-7.5-4-13.4-5.3-22.7-5c-6.8,0.3-8.6,0.6-13.2,2.3c-14.1,5.3-24.4,16.6-28.1,31c-1.5,5.9-1.7,14.4-0.4,19.9l0.8,3.8H28.7c-13.8,0-15.6,0.5-17.8,4.8c-1.7,3.2-1.1,6.2,1.9,8.8l2.3,2l15.1,0.1c14.3,0,15,0.1,13.4,1.1c-12.6,8.7-22.1,19.4-27.3,30.8c-2.9,6.2-5,14.3-5.8,21.8c-0.9,7.7-0.4,10.2,2.7,12.8l2,1.6h67.8c74.5,0,70.5,0.2,72.7-3.9c2-3.8,0.8-16-2.5-25.8c-4.7-13.6-14.8-26.9-27.1-35.3l-4.2-2.9l59.9-0.3l59.9-0.3l1.9-1.9c2.7-2.5,3.2-5.5,1.6-8.6c-2-3.9-4.5-4.8-13.2-4.8h-7.5l-0.5-3.7c-1.5-12.6-10.3-28.6-21.4-38.8c-4.1-3.8-12.7-10.1-14.9-10.9c-0.7-0.2-0.7-0.5-0.1-1.5c3-4.6,4.9-8.4,6.4-12.9c1.6-4.5,1.8-6.2,1.9-13c0-6.9-0.2-8.4-1.9-13.6c-4.8-14.5-17.6-26.5-32.2-29.9C155.9,23,146.3,23.2,140.5,24.7z M158.7,40c5.4,1.4,8.6,3.2,12.9,7.3c6.7,6.4,10,16.2,8.4,24.9c-1.1,6.5-4,11.6-9.7,17.1c-4.9,4.8-5,5-5,8.1c0,4.2,1.7,5.9,8.6,8.7c12.3,5.1,22.3,13.8,28.7,25.1c2.1,3.8,4.7,11,5.5,15l0.5,2.5h-41.4c-36.6,0-41.2-0.1-40.9-1c0.2-0.5,0.7-2.9,1.1-5.3c1.5-8.7-0.5-19.7-5-27.9l-2.2-4l3.8-1.9c2-1.1,5.4-2.6,7.5-3.4c4.3-1.7,6.2-4.2,6.2-7.8c-0.1-3-0.9-4.4-5.2-8.3c-10.1-9.2-12.5-22.7-6.1-35.3C132,42.8,146.3,36.7,158.7,40z M92.4,108.5c10.5,3.6,17.5,11.8,19.5,22.7c1.6,9-1.5,18.2-8.2,24.7c-6,5.8-6.1,6-6.6,8.2c-0.5,2.3,0.5,5.4,2.2,6.9c0.7,0.6,3.8,2.1,6.9,3.5c13.7,5.9,24,15.6,29.8,28.2c2,4.2,4.3,11.5,4.3,13.4c0,0.5-15.8,0.7-56.9,0.7H26.5l0.5-2.6c0.7-4.7,4.3-13.4,7.5-18.2c6.1-9.2,14.1-16,24.7-20.8c8.5-3.9,8.6-3.9,9.5-5.8c0.5-1,0.9-3,0.9-4.4c0-2.5-0.4-3.1-5.1-7.7c-3.5-3.4-5.6-6.2-6.9-8.9c-7.4-15.8,0.6-34.7,17-39.9C79.8,106.8,87.3,106.8,92.4,108.5z"/></g></g></g>
+                </svg>
+              <img src="images/pattern2.png" alt="img" class="position-absolute top-100 start-50 translate-middle z-n1 pe-5">
+            </div>
+            <h4 class="display-6 fw-normal my-3">Personal Consultation</h4>
+            <p>Get personalized beauty advice from our expert makeup artists. We offer one-on-one consultations to understand your style preferences and skin type, helping you choose the perfect look for any occasion. Book your consultation today.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- 
+  <section id="blog" class="padding-medium pt-0">
+    <div class="container-fluid padding-side" data-aos="fade-up">
+      <div class="d-flex flex-wrap align-items-center justify-content-between">
+        <div>
+          <h3 class="display-3 fw-normal text-center">Beauty Tips & Trends</h3>
+        </div>
+        <a href="index.html" class="btn btn-arrow btn-primary mt-3">
+          <span>More Tips<svg width="18" height="18">
+              <use xlink:href="#arrow-right"></use>
+            </svg></span>
+        </a>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="images/post3.jpg" class="blog-img img-fluid rounded-4" alt="img">
+            <div class="position-absolute bottom-0 p-5">
+              <a><span class="bg-secondary text-body m-0 px-2 py-1 rounded-2 fs-6">Bridal</span></a>
+              <h4 class="display-6 fw-normal mt-2"><a href="index.html">Essential Bridal Makeup Tips for Your Big Day</a></h4>
+              <p class="m-0 align-items-center"><svg width="19" height="19">
+                  <use xlink:href="#clock"></use>
+                </svg> 22 Feb, 2024</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="images/post2.jpg" class="blog-img img-fluid rounded-4" alt="img">
+            <div class="position-absolute bottom-0 p-5">
+              <a><span class="bg-secondary text-body m-0 px-2 py-1 rounded-2 fs-6">Skincare</span></a>
+              <h4 class="display-6 fw-normal mt-2"><a href="index.html">Pre-Wedding Skincare Routine Guide</a></h4>
+              <p class="m-0 align-items-center"><svg width="19" height="19">
+                  <use xlink:href="#clock"></use>
+                </svg> 22 Feb, 2024</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="images/post1.jpg" class="blog-img img-fluid rounded-4" alt="img">
+            <div class="position-absolute bottom-0 p-5">
+              <a><span class="bg-secondary text-body m-0 px-2 py-1 rounded-2 fs-6">Trends</span></a>
+              <h4 class="display-6 fw-normal mt-2"><a href="index.html">Latest Makeup Trends for 2024</a></h4>
+              <p class="m-0 align-items-center"><svg width="19" height="19">
+                  <use xlink:href="#clock"></use>
+                </svg> 22 Feb, 2024</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-8 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="images/post5.jpg" class="blog-img img-fluid rounded-4" alt="img">
+            <div class="position-absolute bottom-0 p-4">
+              <a><span class="bg-secondary text-body m-0 px-2 py-1 rounded-2 fs-6">Tutorial</span></a>
+              <h4 class="display-6 fw-normal mt-2"><a href="index.html">Master the Art of Perfect Eye Makeup</a></h4>
+              <p class="m-0 align-items-center"><svg width="19" height="19">
+                  <use xlink:href="#clock"></use>
+                </svg> 22 Feb, 2024</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="blog-post position-relative overflow-hidden rounded-4">
+            <img src="images/post4.jpg" class="blog-img img-fluid rounded-4" alt="img">
+            <div class="position-absolute bottom-0 p-5">
+              <a><span class="bg-secondary text-body m-0 px-2 py-1 rounded-2 fs-6">Tips</span></a>
+              <h4 class="display-6 fw-normal mt-2"><a href="index.html">Long-Lasting Makeup Secrets Revealed</a></h4>
+              <p class="m-0 align-items-center"><svg width="19" height="19">
+                  <use xlink:href="#clock"></use>
+                </svg> 22 Feb, 2024</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section id="footer">
+    <div class="container-fluid padding-side padding-small pt-0" data-aos="fade-up">
+      <footer class="row">
+        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+          <img src="images/logo.svg" width="200" alt="logo-footer" class="img-fluid">
+          <p class="mt-3">Welcome to our makeup brand, where beauty meets artistry. Located in the heart of the city, we transform your look with expert makeup services tailored to your unique style.</p>
+          <ul class="social-links d-flex flex-wrap list-unstyled mt-4 mb-0">
+            <li>
+              <a href="https://www.facebook.com/p/zifaz_makeover-100065638326440/?_rdr">
+                <svg class="social me-4" width="20" height="20">
+                  <use xlink:href="#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/zifaz_makeover/?hl=en">
+                <svg class="social me-4" width="20" height="20">
+                  <use xlink:href="#instagram"></use>
+                </svg>
+              </a>
+            </li>
+           
+          </ul>
+        </div>
+       
+        <div class="col-md-6 col-lg-3 offset-lg-1 mb-4 mb-lg-0">
+          <h4 class="display-6 fw-normal">Our Info</h4>
+          <ul class="nav flex-column">
+            <li class="location text-capitalize d-flex align-items-center">
+              <svg class="color me-1" width="20" height="20">
+                <use xlink:href="#location"></use>
+              </svg>Zifaz Makeover
+            </li>
+            <li class="text-capitalize ms-4">
+             Indona , 
+            </li>
+            <li class="text-capitalize ms-4">
+              Davarlim, Madgaon,
+            </li>
+            <li class="text-capitalize ms-4">
+              Goa 403601
+            </li>
+            <li class="phone text-capitalize d-flex align-items-center mt-2">
+              <svg class="color me-1" width="20" height="20">
+                <use xlink:href="#phone"></use>
+              </svg>+91 96737 44049
+            </li>
+            <li class="email text-capitalize d-flex align-items-center mt-2">
+              <svg class="color me-1" width="20" height="20">
+                <use xlink:href="#email"></use>
+              </svg>zifazmakeover@gmail.com
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <hr class="text-black">
+    <div class="container-fluid padding-side padding-small" data-aos="fade-up">
+      <footer class="row">
+        <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+          <h4 class="display-6 fw-normal">Quick links</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a href="index.html" class="p-0 "> Home </a></li>
+            <li class="nav-item"><a href="about.html" class="p-0 "> About us </a></li>
+            <li class="nav-item"><a href="services.html" class="p-0 "> Services </a></li>
+            
+            <li class="nav-item"><a href="contact.html" class="p-0 "> Contact us </a></li>
+            <li class="nav-item"><a href="contact.html" class="p-0 "> Support </a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 offset-lg-1 mb-4 mb-lg-0">
+          <h4 class="display-6 fw-normal">Services</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a href="services.html" class="p-0 "> Bridal Makeup </a></li>
+            <li class="nav-item"><a href="services.html" class="p-0 "> Party Makeup </a></li>
+            <li class="nav-item"><a href="services.html" class="p-0 "> Skincare </a></li>
+            <li class="nav-item"><a href="services.html" class="p-0 "> Makeup Classes</a></li>
+            <li class="nav-item"><a href="services.html" class="p-0 "> Beauty Tips </a></li>
+            
+          </ul>
+        </div>
+        <div class="Footertext">
+          <p class="m-0">© Copyright 2024 Zifaz Makeover. </p>
+         
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+
+</html>
