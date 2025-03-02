@@ -1,8 +1,0 @@
-name = "zifaz-website"
-type = "webpack"
-account_id = "your-account-id"
-workers_dev = true
-
-[site]
-bucket = "./"
-entry-point = "workers-site"
